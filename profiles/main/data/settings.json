@@ -1,0 +1,304 @@
+{
+  "editor.renderWhitespace": "none",
+  "editor.fontFamily": "'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback', FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": false,
+  "explorer.confirmDelete": false,
+
+  // files
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.npm": true,
+    "**/.config": true,
+    "*.aux": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/node_modules": false,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    }
+  },
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
+
+  // search options
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true,
+    "**/dist": true
+  },
+  // sync
+  "sync.gist": "391b93811f5748f09110fee35fee0d05",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+
+  // git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "gitlens.codeLens.recentChange.enabled": true,
+  "gitlens.codeLens.authors.enabled": true,
+  "gitlens.currentLine.enabled": true,
+
+  // workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
+
+  // plugins
+  "extensions.autoUpdate": true,
+  "guides.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  // prettier
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "hadolint.hadolintPath": "/usr/bin/hadolint",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // c#
+  "csharp.suppressHiddenDiagnostics": false,
+  "csharp.format.enable": true,
+  "omnisharp.useEditorFormattingSettings": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.path": "latest",
+  "omnisharp.useModernNet": true,
+  // spelling
+  "cSpell.language": "en",
+  "cSpell.userWords": [
+    "appsettings",
+    "Backoff",
+    "bitbucket",
+    "Bson",
+    "cref",
+    "dotfiles",
+    "dotnetcore",
+    "esbenp",
+    "Growthbook",
+    "hadolint",
+    "inforit",
+    "inforitnl",
+    "inheritdoc",
+    "INITDB",
+    "Lieshout",
+    "Mastermindzh",
+    "mongodb",
+    "monospace",
+    "mpris",
+    "mssql",
+    "MYGET",
+    "nginx",
+    "omnisharp",
+    "rickvanlieshout",
+    "sandboxing",
+    "Sonarcloud",
+    "stylelint",
+    "Unversioned"
+  ],
+  "gitlens.codeLens.scopes": ["document"],
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
+    "vscode-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "yaml.schemas": {
+    "file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
+    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "debug.javascript.usePreview": true,
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "sonarlint.rules": {
+    "javascript:S3504": {
+      "level": "off"
+    },
+    "typescript:S1533": {
+      "level": "off"
+    },
+    "typescript:S1440": {
+      "level": "on"
+    },
+    "typescript:S4326": {
+      "level": "on"
+    },
+    "typescript:S909": {
+      "level": "on"
+    },
+    "typescript:S4139": {
+      "level": "on"
+    },
+    "typescript:S126": {
+      "level": "on"
+    },
+    "typescript:S3533": {
+      "level": "on"
+    },
+    "typescript:S1539": {
+      "level": "on"
+    },
+    "typescript:S131": {
+      "level": "on"
+    },
+    "typescript:S1821": {
+      "level": "on"
+    },
+    "typescript:S4327": {
+      "level": "on"
+    }
+  },
+  "sonarlint.ls.javaHome": "/usr/lib/jvm/java-17-openjdk/",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.suggestSelection": "first",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "redhat.telemetry.enabled": true,
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "dotnet-test-explorer.autoExpandTree": true,
+  "dotnet-test-explorer.runInParallel": true,
+  "dotnet-test-explorer.treeMode": "full",
+  // keep using omnisharp
+  "dotnet.server.useOmnisharp": true,
+  "atlascode.bitbucket.pipelines.explorerEnabled": false,
+  "atlascode.bitbucket.issues.explorerEnabled": false,
+  "atlascode.jira.enabled": false,
+  "terminal.external.linuxExec": "hyper",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.optimizeStylesheetParsing": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "dotnet-test-explorer.testProjectPath": "*.Test*",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
+  "terminal.integrated.allowChords": false,
+  "xml.server.vmargs": "-Xmx128M",
+  "window.menuBarVisibility": "toggle",
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "errorLens.excludeBySource": ["shellcheck(SC1090)"],
+  "snyk.yesWelcomeNotification": false,
+  "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
+  "snyk.trustedFolders": [
+    "/home/mastermindzh/code/rickvanlieshout.com",
+    "/home/mastermindzh/code/sieve-ts",
+    "/home/mastermindzh/Seafile/My Library/BetterVersioning.net",
+    "/home/mastermindzh/frontliners/code/starter-kits/dotnetcore-base",
+    "/home/mastermindzh/code/Tidal/tidal-hifi-git",
+    "/home/mastermindzh"
+  ],
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "mastermindzh",
+      "connectionId": "public-sonarcloud"
+    }
+  ],
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "dotnet.codeLens.enableTestsCodeLens": false,
+  "mdb.confirmRunAll": false,
+  "mdb.showMongoDBHelpExplorer": false,
+  "mongodbLanguageServer.trace.server": {}
+}
