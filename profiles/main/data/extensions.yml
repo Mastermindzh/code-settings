@@ -158,8 +158,6 @@ enabled:
     uuid: 6d4f0ca2-30a7-43fc-b792-9385bed0f969
   - id: sburg.vscode-javascript-booster
     uuid: 3a1fe682-5a7a-4953-9ba9-77529a973d04
-  - id: Shan.code-settings-sync
-    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: Shelex.vscode-cy-helper
