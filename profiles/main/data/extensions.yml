@@ -4,6 +4,8 @@ disabled:
 enabled:
   - id: alexandernanberg.horizon-theme-vscode
     uuid: 7661e18a-ca94-4e7d-be7c-3b83ff7250c0
+  - id: Angular.ng-template
+    uuid: a92d457e-6f3f-4167-8087-1a54e1b6e00e
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
@@ -38,8 +40,6 @@ enabled:
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: eg2.vscode-npm-script
-    uuid: ae9e3eb0-3357-4cc0-90ee-598d2d384757
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: exiasr.hadolint
@@ -54,14 +54,16 @@ enabled:
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
-  - id: Fudge.auto-using
-    uuid: af14ddf1-c53e-4d84-82d2-f0d31549ea80
   - id: G-Fidalgo.cypress-runner
     uuid: bbe85820-0fe1-4ee1-a71c-63dd00773a56
   - id: gaoshan0621.csharp-format-usings
     uuid: 23c303e0-8157-4a7d-899e-2df9b250ea54
   - id: ghmcadams.lintlens
     uuid: 66ed4827-7677-462f-85a9-d09d0f6a71a5
+  - id: GitHub.copilot
+    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
+  - id: GitHub.copilot-chat
+    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
@@ -80,12 +82,16 @@ enabled:
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
-  - id: jchannon.csharpextensions
-    uuid: e046ec1e-3907-466b-aaea-ff1956a46d27
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
   - id: johnpapa.angular-essentials
     uuid: 15deda26-afe0-4758-8a3d-cd0aebcbd04f
+  - id: johnpapa.Angular2
+    uuid: 214cbfb9-7c06-4467-bad4-357ae83eb587
+  - id: johnpapa.vscode-peacock
+    uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
+  - id: johnpapa.winteriscoming
+    uuid: fd6d3dc6-b307-4589-82a6-78e2afec3d77
   - id: josephwoodward.vscodeilviewer
     uuid: 08b9f747-475c-4854-bdd7-ce528cc6e95e
   - id: k--kato.docomment
