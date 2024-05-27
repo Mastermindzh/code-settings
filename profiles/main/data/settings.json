@@ -150,10 +150,9 @@
     "vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
     "vscode-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "yaml.schemas": {
     "file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
-    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "debug.javascript.usePreview": true,
   "atlascode.bitbucket.enabled": true,
@@ -204,6 +203,12 @@
     },
     "typescript:S4327": {
       "level": "on"
+    },
+    "csharpsquid:S1481": {
+      "level": "off"
+    },
+    "csharpsquid:S1848": {
+      "level": "off"
     }
   },
   "sonarlint.ls.javaHome": "/usr/lib/jvm/java-17-openjdk/",
@@ -300,5 +305,7 @@
   "dotnet.codeLens.enableTestsCodeLens": false,
   "mdb.confirmRunAll": false,
   "mdb.showMongoDBHelpExplorer": false,
-  "mongodbLanguageServer.trace.server": {}
+  "mongodbLanguageServer.trace.server": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "rest-client.previewResponsePanelTakeFocus": false
 }
