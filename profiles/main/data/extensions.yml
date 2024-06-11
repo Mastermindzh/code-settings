@@ -44,8 +44,6 @@ enabled:
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: eg2.vscode-npm-script
-    uuid: ae9e3eb0-3357-4cc0-90ee-598d2d384757
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: exiasr.hadolint
@@ -148,8 +146,6 @@ enabled:
     uuid: 7997a8ae-1fae-4022-b834-12f6318aeffd
   - id: PascalReitermann93.vscode-yaml-sort
     uuid: 0b4b8cd5-e418-4c5f-b288-7c825aab0efd
-  - id: Perkovec.emoji
-    uuid: a9151cd6-3338-48bc-bc6e-ba97e22489dd
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
   - id: philsinatra.nested-comments
@@ -218,7 +214,5 @@ enabled:
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
-  - id: znck.grammarly
-    uuid: f2c8b652-2886-45ef-8bc0-c8d1ee8a0e9f
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

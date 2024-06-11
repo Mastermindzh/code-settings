@@ -50,13 +50,11 @@
     "**/dist": true
   },
   // sync
-  "sync.gist": "391b93811f5748f09110fee35fee0d05",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.forceDownload": false,
-  "sync.quietSync": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
+  "syncSettings.crons": {
+    "review": "0 * * * *", // every hour
+    "download": "0 9 * * *", // at 9AM, every day
+    "upload": "0 16 * * *" // at 5PM, every day
+  },
 
   // git
   "git.enableSmartCommit": true,
