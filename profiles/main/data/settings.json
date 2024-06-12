@@ -1,6 +1,6 @@
 {
   "editor.renderWhitespace": "none",
-  "editor.fontFamily": "'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback', FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
+  "editor.fontFamily": "'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
   "editor.fontLigatures": true,
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
