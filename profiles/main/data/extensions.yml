@@ -38,6 +38,8 @@ enabled:
     uuid: c4fac055-b854-41f0-9610-f8a9d62e9b89
   - id: donjayamanne.githistory
     uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
+  - id: dracula-theme.theme-dracula
+    uuid: 4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: ecmel.vscode-html-css

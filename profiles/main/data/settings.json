@@ -275,7 +275,7 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.colorTheme": "Dracula",
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
