@@ -62,9 +62,6 @@
   "gitlens.codeLens.recentChange.enabled": true,
   "gitlens.codeLens.authors.enabled": true,
   "gitlens.currentLine.enabled": true,
-
-  // workbench
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
 
@@ -305,5 +302,6 @@
   "mdb.showMongoDBHelpExplorer": false,
   "mongodbLanguageServer.trace.server": {},
   "diffEditor.ignoreTrimWhitespace": false,
-  "rest-client.previewResponsePanelTakeFocus": false
+  "rest-client.previewResponsePanelTakeFocus": false,
+  "workbench.iconTheme": "vscode-icons"
 }
