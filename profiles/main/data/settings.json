@@ -303,5 +303,5 @@
   "mongodbLanguageServer.trace.server": {},
   "diffEditor.ignoreTrimWhitespace": false,
   "rest-client.previewResponsePanelTakeFocus": false,
-  "workbench.iconTheme": "vscode-icons"
+  "workbench.iconTheme": "material-icon-theme"
 }

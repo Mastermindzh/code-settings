@@ -152,6 +152,8 @@ enabled:
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
   - id: philsinatra.nested-comments
     uuid: 03b96169-4c19-4c9e-ada8-d5d208ebe80e
+  - id: PKief.material-icon-theme
+    uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: planbcoding.vscode-react-refactor
     uuid: 66b3d158-f3cc-4b1b-acce-237ab336fe65
   - id: RamiroBerrelleza.bitbucket-pull-requests
