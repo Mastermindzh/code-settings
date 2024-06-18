@@ -1,4 +1,4 @@
-atlassian.atlascode: '{"rulingPid":553582,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
+atlassian.atlascode: '{"rulingPid":21944,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
   Cloud","product":{"name":"Bitbucket","key":"bitbucket"},"isCloud":true,"userId":"557058:7e6ed326-918f-4907-8f32-0b137b1ed582","credentialId":"b45767223a47f4ce0312a4762ce04267"}]}'
 Fudge.auto-using: '{"commonwords":[{"label":"Console","namespace":"System"}]}'
 geequlim.godot-tools: '{"previousVersion":"2.0.0"}'
@@ -2545,7 +2545,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: "[]"
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["github-actions-workflow",true],["json",true],["jsonc",true],["yaml",true],["properties",true],["typescript",true],["css",true],["ini",true],["plaintext",true],["shellscript",true],["markdown",true],["xml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["github-actions-workflow",true],["json",true],["jsonc",true],["yaml",true],["typescript",true],["css",true],["ini",true],["xml",true],["plaintext",true],["properties",true],["shellscript",true],["markdown",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false,"order":6},{"id":"timeline","isHidden":false,"order":7},{"id":"workbench.explorer.openEditorsView","isHidden":true,"order":0},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true,"order":8},{"id":"commitViewProvider","isHidden":false,"order":9},{"id":"compareCommitViewProvider","isHidden":false,"order":10},{"id":"regionViewer","isHidden":false,"order":12},{"id":"SonarLint.AllRules","isHidden":false},{"id":"SonarLint.IssueLocations","isHidden":false,"order":13},{"id":"workbench.explorer.fileView","isHidden":false,"order":1},{"id":"SonarLint.ConnectedMode","isHidden":false},{"id":"solutionExplorer","isHidden":false,"order":11},{"id":"gitlens.views.home","isHidden":true,"order":2},{"id":"gitlens.views.drafts","isHidden":true,"order":3},{"id":"gitlens.views.workspaces","isHidden":true,"order":4},{"id":"gitlens.views.account","isHidden":true,"order":5}]'
 workbench.grid.size: '{"height":1056,"width":1920}'
 workbench.panel.alignment: center
