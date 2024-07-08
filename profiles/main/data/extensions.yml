@@ -1,6 +1,10 @@
 disabled:
   - id: crystal-spider.jsdoc-generator
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
+  - id: GitHub.vscode-pull-request-github
+    uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
+  - id: GitHub.vscode-pull-request-github
+    uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
 enabled:
   - id: alexandernanberg.horizon-theme-vscode
     uuid: 7661e18a-ca94-4e7d-be7c-3b83ff7250c0
@@ -72,8 +76,6 @@ enabled:
     uuid: 66ed4827-7677-462f-85a9-d09d0f6a71a5
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
-  - id: GitHub.vscode-pull-request-github
-    uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
   - id: GraphQL.vscode-graphql
     uuid: 55ef6448-487b-49a0-a66e-4d2d9bb82229
   - id: GraphQL.vscode-graphql-execution
