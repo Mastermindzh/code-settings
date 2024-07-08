@@ -1,11 +1,11 @@
-atlassian.atlascode: '{"rulingPid":41490,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
+atlassian.atlascode: '{"rulingPid":58397,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
   Cloud","product":{"name":"Bitbucket","key":"bitbucket"},"isCloud":true,"userId":"557058:7e6ed326-918f-4907-8f32-0b137b1ed582","credentialId":"b45767223a47f4ce0312a4762ce04267"}]}'
 Fudge.auto-using: '{"commonwords":[{"label":"ServerCertificateSelectionCallback","namespace":"System.Net.Security"}]}'
 geequlim.godot-tools: '{"previousVersion":"2.0.0"}'
 GitHub.vscode-pull-request-github: '{"VSCode.ABExp.FeatureData":{"features":["account-aa","config.editor.experimental.asyncTokenization","copilotchat.renameSuggestionsDelayBeforeFetchcf","livesharecontinuousaacf","mindaroBinariesVersion","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService"],"assignmentContext":"vsliv368cf:30146710;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;vsaa593:30376534;c4g48928:30535728;asynctok:30898717;da93g388:31013173;","configs":[{"Id":"vscode","Parameters":{"account-aa":true,"config.editor.experimental.asyncTokenization":true,"copilotchat.renameSuggestionsDelayBeforeFetch":0,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true}}]},"github.pullRequest.repos":{"repos":{}},"github.pullRequest.pullNotification.show":false,"rateCounterLastWindow":1681322787796,"rateCounterCount":85,"githubPullRequest.lastUsedScopes":["read:user","user:email","repo","workflow"],"githubPullRequest.lastUsedScopesEnterprise":["read:user","user:email","repo","workflow"],"prompt
   for sign in:login":false}'
 mongodb.mongodb-vscode: '{"GLOBAL_ANONYMOUS_ID":"8bf4f0d2-0a03-462b-a2d7-23f4ad428785","GLOBAL_HAS_BEEN_SHOWN_INITIAL_VIEW":true,"GLOBAL_SAVED_CONNECTIONS":{}}'
-ms-azuretools.vscode-docker: '{"VSCode.ABExp.FeatureData":{"features":["account-aa","config.editor.experimental.asyncTokenization","copilotchat.renameSuggestionsDelayBeforeFetchcf","copilotchat.summarizedDocument.useScoreFunctioncf","livesharecontinuousaacf","mindaroBinariesVersion","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","vscode-docker.aatest"],"assignmentContext":"vsliv368cf:30146710;vscode-docker_aaflight:30153983;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;vsaa593:30376534;c4g48928:30535728;asynctok:30898717;da93g388:31013173;26j00206:31048877;","configs":[{"Id":"vscode","Parameters":{"account-aa":true,"config.editor.experimental.asyncTokenization":true,"copilotchat.renameSuggestionsDelayBeforeFetch":0,"copilotchat.summarizedDocument.useScoreFunction":false,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"vscode-docker.aatest":true}}]},"vscode-docker.activity.overall":{"lastSession":1716469789328,"currentMonthSessions":11,"totalSessions":64},"vscode-docker.activity.overallnoedit":{"lastSession":1716469789251,"currentMonthSessions":11,"totalSessions":26},"vscode-docker.container.newContainerUser":false,"isRegistryMigrated":true}'
+ms-azuretools.vscode-docker: '{"VSCode.ABExp.FeatureData":{"features":["account-aa","config.editor.experimental.asyncTokenization","copilotchat.renameSuggestionsDelayBeforeFetchcf","livesharecontinuousaacf","mindaroBinariesVersion","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","vscode-docker.aatest"],"assignmentContext":"vsliv368cf:30146710;vscode-docker_aaflight:30153983;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;vsaa593:30376534;c4g48928:30535728;asynctok:30898717;da93g388:31013173;","configs":[{"Id":"vscode","Parameters":{"account-aa":true,"config.editor.experimental.asyncTokenization":true,"copilotchat.renameSuggestionsDelayBeforeFetch":0,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"vscode-docker.aatest":true}}]},"vscode-docker.activity.overall":{"lastSession":1720424196152,"currentMonthSessions":1,"totalSessions":65},"vscode-docker.activity.overallnoedit":{"lastSession":1720424195969,"currentMonthSessions":1,"totalSessions":27},"vscode-docker.container.newContainerUser":false,"isRegistryMigrated":true}'
 ms-dotnettools.vscode-dotnet-runtime: "{\"releases\":\"{\\r\\n    \\\"$schema\\\
   \":
   \\\"https://json.schemastore.org/dotnet-releases-index.json\\\",\\r\\n    \\\
@@ -2480,33 +2480,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   me\":\"file\"},\"name\":\"Project Reference
   Explorer\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.exten\
   sions\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\
-  \",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews\"},{\"when\
-  \":\"searchExtensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
-  \":\"installedExtensions ||
-  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
-  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
-  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
-  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
-  kbench.view.extension.SonarLint\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENS\
-  ION_DATA_PATH%%/sonarsource.sonarlint-vscode-4.7.0-linux-x64/images/sonarlint\
-  .svg\",\"scheme\":\"file\"},\"name\":\"SonarLint\",\"isBuiltin\":false,\"views\
-  \":[{},{},{},{}]},{\"id\":\"workbench.view.extension.cspell-explorer\",\"icon\
-  Url\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/streetsidesoftware.code-\
-  spell-checker-3.0.1/resources/dark/check_circle.svg\",\"scheme\":\"file\"},\"\
-  name\":\"Spell Checker
+  \",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extension.SonarL\
+  int\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/sonarsource.\
+  sonarlint-vscode-4.7.0-linux-x64/images/sonarlint.svg\",\"scheme\":\"file\"},\
+  \"name\":\"SonarLint\",\"isBuiltin\":false,\"views\":[{},{},{},{}]},{\"id\":\
+  \"workbench.view.extension.cspell-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\
+  \"%%EXTENSION_DATA_PATH%%/streetsidesoftware.code-spell-checker-3.0.1/resourc\
+  es/dark/check_circle.svg\",\"scheme\":\"file\"},\"name\":\"Spell Checker
   Info\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.cSpell.experimental.\
   enableRegexpView\"}]},{\"id\":\"workbench.view.extension.thunder-client\",\"i\
   sBuiltin\":false},{\"id\":\"workbench.view.extension.github-actions\",\"iconU\
@@ -2539,13 +2519,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
-  ,{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\
-  \"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
+  Changes\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"userDataProfiles\",\"the\
+  meIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\"\
+  :true,\"views\":[]}]"
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: "[]"
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["ini",true],["properties",true],["markdown",true],["xml",true],["shellscript",true],["csharp",true],["jsonc",true],["json",true],["typescript",true],["javascript",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["shellscript",true],["json",true],["typescript",true],["javascript",true],["plaintext",true],["http",true],["csharp",true],["xml",true],["sql",true],["dockercompose",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false,"order":6},{"id":"timeline","isHidden":false,"order":7},{"id":"workbench.explorer.openEditorsView","isHidden":true,"order":0},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true,"order":8},{"id":"commitViewProvider","isHidden":false,"order":9},{"id":"compareCommitViewProvider","isHidden":false,"order":10},{"id":"regionViewer","isHidden":false,"order":12},{"id":"SonarLint.AllRules","isHidden":false},{"id":"SonarLint.IssueLocations","isHidden":false,"order":13},{"id":"workbench.explorer.fileView","isHidden":false,"order":1},{"id":"SonarLint.ConnectedMode","isHidden":false},{"id":"solutionExplorer","isHidden":false,"order":11},{"id":"gitlens.views.home","isHidden":true,"order":2},{"id":"gitlens.views.drafts","isHidden":true,"order":3},{"id":"gitlens.views.workspaces","isHidden":true,"order":4},{"id":"gitlens.views.account","isHidden":true,"order":5}]'
 workbench.grid.size: '{"height":1056,"width":1920}'
 workbench.panel.alignment: center
@@ -2591,6 +2571,6 @@ workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.inst
 workbench.view.remote.state.hidden: '[{"id":"targetsContainers","isHidden":false},{"id":"detailsContainers","isHidden":false},{"id":"devVolumes","isHidden":false},{"id":"sshHosts","isHidden":false},{"id":"remoteTargets","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
 workbench.view.sync.state.hidden: '[{"id":"workbench.views.sync.merges","isHidden":false},{"id":"workbench.views.sync.remoteActivity","isHidden":false},{"id":"workbench.views.sync.machines","isHidden":false},{"id":"workbench.views.sync.localActivity","isHidden":true},{"id":"workbench.views.sync.troubleshoot","isHidden":true}]'
-workbench.views.extensions.installed.size: "111"
+workbench.views.extensions.installed.size: "1"
 workbench.welcomePage.walkthroughMetadata: '[["ms-vscode.cpptools#cppWelcome",{"firstSeen":1651520748487,"stepIDs":["verify.compiler.mac","verify.compiler.linux","verify.compiler.windows","open.project","setup.intellisense","run.project.mac","run.project.linux","run.project.windows","install.cmake.tools","watch.tutorials"],"manaullyOpened":false}],["eamodio.gitlens#gitlens.welcome",{"firstSeen":1651520779233,"stepIDs":["gitlens.welcome.experience","gitlens.welcome.settings","gitlens.welcome.currentLineBlame","gitlens.welcome.gitCodeLens","gitlens.welcome.revisionHistory","gitlens.welcome.fileAnnotations","gitlens.welcome.gitSideBarViews","gitlens.welcome.hostingServiceIntegrations","gitlens.welcome.gitCommandPalette","gitlens.welcome.interactiveRebaseEditor","gitlens.welcome.terminal","gitlens.welcome.plus"],"manaullyOpened":false}],["eamodio.gitlens#gitlens.plus",{"firstSeen":1651520779233,"stepIDs":["gitlens.plus.intro.tryNow","gitlens.plus.intro.signIn","gitlens.plus.intro","gitlens.plus.visualFileHistory","gitlens.plus.worktrees","gitlens.plus.comingSoon","gitlens.plus.tryNow","gitlens.plus.signIn"],"manaullyOpened":false}],["ms-azuretools.vscode-docker#dockerStart",{"firstSeen":1651520864646,"stepIDs":["openFolder","openFolderMac","scaffold","buildImage","runContainer","dockerExplorer","pushImage","azDeploy","learn"],"manaullyOpened":false}],["msjsdiag.vscode-react-native#RNTGetStarted",{"firstSeen":1651520900002,"stepIDs":["settingUpCommonEnvironment","settingUpExpoEnvironment","settingUpWindowsEnvironment","settingUpMacOsEnvironment","hermesEngine","runAndDebugReactNativeApp","exploreExtensionFeatures"],"manaullyOpened":false}]]'
 zokugun.cron-tasks: '{"version":"0.1.2"}'

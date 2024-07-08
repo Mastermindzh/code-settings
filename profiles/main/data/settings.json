@@ -107,6 +107,9 @@
   "omnisharp.enableEditorConfigSupport": true,
   "omnisharp.path": "latest",
   "omnisharp.useModernNet": true,
+  // Disable Microsoft being pushy ass-hats :)
+  "dotnet.automaticallyCreateSolutionInWorkspace": false,
+
   // spelling
   "cSpell.language": "en",
   "cSpell.userWords": [
