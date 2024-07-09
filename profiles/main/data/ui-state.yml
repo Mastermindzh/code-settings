@@ -1,4 +1,4 @@
-atlassian.atlascode: '{"rulingPid":117694,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
+atlassian.atlascode: '{"rulingPid":7966,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
   Cloud","product":{"name":"Bitbucket","key":"bitbucket"},"isCloud":true,"userId":"557058:7e6ed326-918f-4907-8f32-0b137b1ed582","credentialId":"b45767223a47f4ce0312a4762ce04267"}]}'
 Fudge.auto-using: '{"commonwords":[{"label":"ServerCertificateSelectionCallback","namespace":"System.Net.Security"}]}'
 geequlim.godot-tools: '{"previousVersion":"2.0.0"}'
@@ -2412,14 +2412,19 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   erEnabled\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\":{\"id\
   \":\"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\"views\":[{\"\
   when\":\"testing.providerCount >
-  0\"},{\"when\":\"testing.isTestCoverageOpen\"},{},{\"when\":\"testExplorerVis\
-  ible\"}]},{\"id\":\"workbench.view.extension.gitlens\",\"themeIcon\":{\"id\":\
-  \"gitlens-gitlens\"},\"name\":\"GitLens\",\"isBuiltin\":false,\"views\":[]},{\
-  \"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"id\":\"r\
-  eferences\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\"when\":\
-  \"reference-list.isActive\"},{\"when\":\"cpptools.hasReferencesResults\"}]},{\
-  \"id\":\"workbench.view.extension.gitlensInspect\",\"themeIcon\":{\"id\":\"gi\
-  tlens-gitlens-inspect\"},\"name\":\"GitLens
+  0\"},{\"when\":\"testing.isTestCoverageOpen\"},{\"when\":\"ReposManagerStateC\
+  ontext == 'NeedsAuthentication'\"},{\"when\":\"!github:resolvingConflicts &&
+  ReposManagerStateContext !=
+  'NeedsAuthentication'\"},{\"when\":\"!github:resolvingConflicts &&
+  ReposManagerStateContext !=
+  'NeedsAuthentication'\"},{},{\"when\":\"testExplorerVisible\"}]},{\"id\":\"wo\
+  rkbench.view.extension.gitlens\",\"themeIcon\":{\"id\":\"gitlens-gitlens\"},\
+  \"name\":\"GitLens\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.vi\
+  ew.extension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\
+  \"References\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isAc\
+  tive\"},{\"when\":\"cpptools.hasReferencesResults\"}]},{\"id\":\"workbench.vi\
+  ew.extension.gitlensInspect\",\"themeIcon\":{\"id\":\"gitlens-gitlens-inspect\
+  \"},\"name\":\"GitLens
   Inspect\",\"isBuiltin\":false,\"views\":[{\"when\":\"!gitlens:disabled\"},{\"\
   when\":\"gitlens:views:pullRequest:visible &&
   !gitlens:disabled\"},{\"when\":\"!gitlens:disabled &&
@@ -2459,13 +2464,20 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !snyk:error\"},{\"when\":\"snyk:initialized && snyk:loggedIn &&
   snyk:workspaceFound && !snyk:codeEnabled &&
   !snyk:error\"},{}]},{\"id\":\"workbench.view.extension.github-pull-requests\",\
-  \"name\":\"GitHub Pull
-  Requests\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.github-pul\
-  l-request\",\"name\":\"GitHub Pull
-  Request\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.project-ref\
-  erence-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/\
-  revrenlove.c-sharp-utilities-1.12.1/assets/images/logo-mono-sidebar.png\",\"s\
-  cheme\":\"file\"},\"name\":\"Project Reference
+  \"themeIcon\":{\"id\":\"github\"},\"name\":\"GitHub Pull
+  Requests\",\"isBuiltin\":false,\"views\":[{\"when\":\"github:resolvingConflic\
+  ts\"}]},{\"id\":\"workbench.view.extension.github-pull-request\",\"themeIcon\
+  \":{\"id\":\"git-pull-request\"},\"name\":\"GitHub Pull
+  Request\",\"isBuiltin\":false,\"views\":[{\"when\":\"github:createPullRequest\
+  \"},{\"when\":\"github:createPullRequest\"},{\"when\":\"github:createPullRequ\
+  est\"},{\"when\":\"github:inReviewMode &&
+  !github:createPullRequest\"},{\"when\":\"github:focusedReview &&
+  github:inReviewMode && !github:createPullRequest && github:activePRCount <=
+  1\"},{\"when\":\"github:focusedReview &&
+  !github:stateValidated\"}]},{\"id\":\"workbench.view.extension.project-refere\
+  nce-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/rev\
+  renlove.c-sharp-utilities-1.12.1/assets/images/logo-mono-sidebar.png\",\"sche\
+  me\":\"file\"},\"name\":\"Project Reference
   Explorer\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.exten\
   sions\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\
   \",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews\"},{\"when\
@@ -2533,7 +2545,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: "[]"
 workbench.auxiliaryBar.size: "300"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ini",true],["properties",true],["markdown",true],["xml",true],["shellscript",true],["csharp",true],["typescript",true],["javascript",true],["plaintext",true],["jsonc",true],["log",true],["json",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["xml",true],["shellscript",true],["csharp",true],["javascript",true],["plaintext",true],["jsonc",true],["log",true],["html",true],["json",true],["markdown",true],["typescript",true],["github-actions-workflow",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false,"order":6},{"id":"timeline","isHidden":false,"order":7},{"id":"workbench.explorer.openEditorsView","isHidden":true,"order":0},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true,"order":8},{"id":"commitViewProvider","isHidden":false,"order":9},{"id":"compareCommitViewProvider","isHidden":false,"order":10},{"id":"regionViewer","isHidden":false,"order":12},{"id":"SonarLint.AllRules","isHidden":false},{"id":"SonarLint.IssueLocations","isHidden":false,"order":13},{"id":"workbench.explorer.fileView","isHidden":false,"order":1},{"id":"SonarLint.ConnectedMode","isHidden":false},{"id":"solutionExplorer","isHidden":false,"order":11},{"id":"gitlens.views.home","isHidden":true,"order":2},{"id":"gitlens.views.drafts","isHidden":true,"order":3},{"id":"gitlens.views.workspaces","isHidden":true,"order":4},{"id":"gitlens.views.account","isHidden":true,"order":5},{"id":"github:createPullRequestWebview","isHidden":false},{"id":"github:compareChangesFiles","isHidden":false},{"id":"github:compareChangesCommits","isHidden":false},{"id":"github:conflictResolution","isHidden":false},{"id":"prStatus:github","isHidden":false},{"id":"github:activePullRequest","isHidden":false},{"id":"github:activePullRequest:welcome","isHidden":false}]'
 workbench.grid.size: '{"height":1056,"width":1920}'
 workbench.panel.alignment: center
