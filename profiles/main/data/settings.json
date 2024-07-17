@@ -278,7 +278,7 @@
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },

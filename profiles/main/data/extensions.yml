@@ -24,6 +24,8 @@ enabled:
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: ckolkman.vscode-postgres
+    uuid: b200e7e8-4217-4da9-b8db-5606db56d867
   - id: codezombiech.gitignore
     uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
   - id: connorshea.vscode-test-explorer-status-bar
