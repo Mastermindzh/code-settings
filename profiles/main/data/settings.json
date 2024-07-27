@@ -306,5 +306,12 @@
   "mongodbLanguageServer.trace.server": {},
   "diffEditor.ignoreTrimWhitespace": false,
   "rest-client.previewResponsePanelTakeFocus": false,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "snyk.folderConfigs": [
+    {
+      "folderPath": "/home/mastermindzh/dotfiles",
+      "baseBranch": "master",
+      "localBranches": ["experiment/polybar", "master"]
+    }
+  ]
 }
