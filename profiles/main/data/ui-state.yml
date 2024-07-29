@@ -1,4 +1,4 @@
-atlassian.atlascode: '{"rulingPid":6754,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
+atlassian.atlascode: '{"rulingPid":96097,"pmfStats":{"lastSurveyed":"2021-11-02","snoozeUntil":"2022-05-02[1651520719770]21:45:19+02:00","activityByDay":{}},"atlascodeVersion":"3.0.10","configurationTarget":"user","bitbucketSites":[{"avatarUrl":"","baseApiUrl":"https://api.bitbucket.org/2.0","baseLinkUrl":"https://bitbucket.org","host":"bitbucket.org","id":"bbcloud","name":"Bitbucket
   Cloud","product":{"name":"Bitbucket","key":"bitbucket"},"isCloud":true,"userId":"557058:7e6ed326-918f-4907-8f32-0b137b1ed582","credentialId":"b45767223a47f4ce0312a4762ce04267"}]}'
 Fudge.auto-using: '{"commonwords":[{"label":"ServerCertificateSelectionCallback","namespace":"System.Net.Security"}]}'
 geequlim.godot-tools: '{"previousVersion":"2.0.0"}'
@@ -2485,33 +2485,13 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   me\":\"file\"},\"name\":\"Project Reference
   Explorer\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.exten\
   sions\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Extensions\
-  \",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews\"},{\"when\
-  \":\"searchExtensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
-  \":\"installedExtensions ||
-  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
-  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
-  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
-  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
-  kbench.view.extension.SonarLint\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENS\
-  ION_DATA_PATH%%/sonarsource.sonarlint-vscode-4.7.0-linux-x64/images/sonarlint\
-  .svg\",\"scheme\":\"file\"},\"name\":\"SonarLint\",\"isBuiltin\":false,\"views\
-  \":[{},{},{},{}]},{\"id\":\"workbench.view.extension.cspell-explorer\",\"icon\
-  Url\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/streetsidesoftware.code-\
-  spell-checker-3.0.1/resources/dark/check_circle.svg\",\"scheme\":\"file\"},\"\
-  name\":\"Spell Checker
+  \",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extension.SonarL\
+  int\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/sonarsource.\
+  sonarlint-vscode-4.7.0-linux-x64/images/sonarlint.svg\",\"scheme\":\"file\"},\
+  \"name\":\"SonarLint\",\"isBuiltin\":false,\"views\":[{},{},{},{}]},{\"id\":\
+  \"workbench.view.extension.cspell-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\
+  \"%%EXTENSION_DATA_PATH%%/streetsidesoftware.code-spell-checker-3.0.1/resourc\
+  es/dark/check_circle.svg\",\"scheme\":\"file\"},\"name\":\"Spell Checker
   Info\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.cSpell.experimental.\
   enableRegexpView\"}]},{\"id\":\"workbench.view.extension.thunder-client\",\"i\
   sBuiltin\":false},{\"id\":\"workbench.view.extension.github-actions\",\"iconU\
@@ -2528,7 +2508,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !github-actions.internet-access ||
   !github-actions.signed-in\"}]},{\"id\":\"workbench.view.extension.godotTools\
   \",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/geequlim.godot-\
-  tools-2.0.0/resources/godot_icon.svg\",\"scheme\":\"file\"},\"name\":\"Godot
+  tools-2.1.0/resources/godot_icon.svg\",\"scheme\":\"file\"},\"name\":\"Godot
   Tools\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extensio\
   n.postgres-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PAT\
   H%%/ckolkman.vscode-postgres-1.4.3/resources/postgres-explorer.svg\",\"scheme\
@@ -2549,9 +2529,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
-  ,{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\
-  \"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
+  Changes\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"userDataProfiles\",\"the\
+  meIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\"\
+  :true,\"views\":[]}]"
 workbench.activityBar.location: default
 workbench.auxiliarybar.pinnedPanels: "[]"
 workbench.auxiliaryBar.size: "300"
