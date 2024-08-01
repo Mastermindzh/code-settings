@@ -311,7 +311,9 @@
     {
       "folderPath": "/home/mastermindzh/dotfiles",
       "baseBranch": "master",
-      "localBranches": ["experiment/polybar", "master"]
+      "localBranches": [
+        "master"
+      ]
     }
   ]
 }
