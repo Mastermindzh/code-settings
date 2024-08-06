@@ -1,17 +1,15 @@
 disabled:
   - id: crystal-spider.jsdoc-generator
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
+  - id: snyk-security.snyk-vulnerability-scanner
+    uuid: 360bbbc1-6275-43ce-a7e0-84027eddd2b0
 enabled:
-  - id: alexandernanberg.horizon-theme-vscode
-    uuid: 7661e18a-ca94-4e7d-be7c-3b83ff7250c0
   - id: alfish.godot-files
     uuid: 60d25647-71b1-417a-8005-6b22941c0895
   - id: altamkp.godot-snippets-vscode-csharp
     uuid: 37a28981-5771-4b11-b3df-3f242a1fbc99
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
-  - id: atlassian.atlascode
-    uuid: ede0d8fe-2180-4cf5-85f5-075dc43d4b8f
   - id: bhank.vscode-bad-code-highlighter
     uuid: ee8bd070-5616-4ec9-a05b-764ba32dd4ec
   - id: bierner.emojisense
@@ -24,8 +22,6 @@ enabled:
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
-  - id: ckolkman.vscode-postgres
-    uuid: b200e7e8-4217-4da9-b8db-5606db56d867
   - id: codezombiech.gitignore
     uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
   - id: connorshea.vscode-test-explorer-status-bar
@@ -62,8 +58,6 @@ enabled:
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
-  - id: Fudge.auto-using
-    uuid: af14ddf1-c53e-4d84-82d2-f0d31549ea80
   - id: G-Fidalgo.cypress-runner
     uuid: bbe85820-0fe1-4ee1-a71c-63dd00773a56
   - id: gaoshan0621.csharp-format-usings
@@ -76,26 +70,16 @@ enabled:
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
     uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
-  - id: GraphQL.vscode-graphql
-    uuid: 55ef6448-487b-49a0-a66e-4d2d9bb82229
-  - id: GraphQL.vscode-graphql-execution
-    uuid: 3cca2f62-8afb-4fdb-863b-6b0cf9362a8c
-  - id: GraphQL.vscode-graphql-syntax
-    uuid: e1ab76b1-9acd-4ffa-baf7-1d9eaf7cf3d2
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: hbenl.vscode-test-explorer
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
   - id: HookyQR.JSDocTagComplete
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
-  - id: humao.rest-client
-    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
-  - id: josephwoodward.vscodeilviewer
-    uuid: 08b9f747-475c-4854-bdd7-ce528cc6e95e
   - id: k--kato.docomment
     uuid: d1a2eab4-aa6e-4094-93b3-6a007f60bd9d
   - id: k--kato.intellij-idea-keybindings
@@ -130,20 +114,14 @@ enabled:
     uuid: 13fef117-0575-4dc5-b573-5cb945a69d0a
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
     uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
-  - id: ms-vscode.cpptools
-    uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
   - id: ms-vscode.mono-debug
     uuid: 28dd5df5-9ecf-486c-b2e6-517483951691
   - id: ms-vscode.test-adapter-converter
     uuid: 47210ec2-0324-4cbb-9523-9dff02a5f9ec
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
-  - id: MULU-github.jsflowchart
-    uuid: 06b91dd0-c1bc-4d50-9404-dc26d6967ba1
   - id: neikeq.godot-csharp-vscode
     uuid: c72f4c51-2c77-4592-ba2d-365e9c474014
-  - id: nickytonline.vscode-gatsby-snippets
-    uuid: f1bf39e1-ee7f-44aa-9ed9-b5d1d1f36005
   - id: oouo-diogo-perdigao.docthis
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
@@ -158,8 +136,6 @@ enabled:
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: planbcoding.vscode-react-refactor
     uuid: 66b3d158-f3cc-4b1b-acce-237ab336fe65
-  - id: RamiroBerrelleza.bitbucket-pull-requests
-    uuid: 86968fd3-6e16-461b-9ebf-6103ed8debad
   - id: redhat.vscode-xml
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
   - id: redhat.vscode-yaml
@@ -180,8 +156,6 @@ enabled:
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
   - id: slevesque.shader
     uuid: 3a63675f-7987-4cff-a411-d4a9568f560c
-  - id: snyk-security.snyk-vulnerability-scanner
-    uuid: 360bbbc1-6275-43ce-a7e0-84027eddd2b0
   - id: SonarSource.sonarlint-vscode
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: spywhere.guides
@@ -194,8 +168,6 @@ enabled:
     uuid: ec35b5a3-9802-4c68-b5ff-e85f19ec0977
   - id: TakumiI.markdowntable
     uuid: 5a882e99-34b7-4450-a0b1-f1bd94681c7b
-  - id: teabyii.ayu
-    uuid: 5178733e-4b02-4829-95c5-1ce970847c23
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: tomoki1207.pdf
@@ -214,8 +186,6 @@ enabled:
     uuid: b2afde1a-6cef-4f77-971f-24e66ff2ae38
   - id: woberg.godot-dotnet-tools
     uuid: 449473ca-1917-4ac1-9291-41fe39e51a1f
-  - id: xabikos.JavaScriptSnippets
-    uuid: a2cec723-5349-460d-9de9-0fd1f8d3456f
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: yzhang.markdown-all-in-one
