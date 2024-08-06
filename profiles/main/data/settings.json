@@ -250,5 +250,6 @@
   "mongodbLanguageServer.trace.server": {},
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "material-icon-theme",
-  "debug.onTaskErrors": "abort"
+  "debug.onTaskErrors": "abort",
+  "git.openRepositoryInParentFolders": "never"
 }
