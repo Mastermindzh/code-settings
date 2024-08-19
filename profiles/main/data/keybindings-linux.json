@@ -188,5 +188,17 @@
   {
     "key": "ctrl+alt+o",
     "command": "-workbench.action.remote.showMenu"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "organize-imports.organizeImports"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "-organize-imports.organizeImports"
+  },
+  {
+    "key": "ctrl+alt+o",
+    "command": "csharpOrganizeUsings.organize"
   }
 ]

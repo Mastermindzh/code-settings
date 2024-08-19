@@ -18,6 +18,8 @@ enabled:
     uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
   - id: blanu.vscode-styled-jsx
     uuid: 282c56aa-f02e-40b6-b55e-bfdee63cea4d
+  - id: ChamikaGangul.organize-imports
+    uuid: fa0b0986-aa86-4fdb-96c5-a62b6104d243
   - id: christian-kohler.npm-intellisense
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: christian-kohler.path-intellisense
@@ -78,6 +80,8 @@ enabled:
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
+  - id: jeremycaron.csharp-organize-usings
+    uuid: d0c75e48-068c-45ed-9f35-5de217507185
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
   - id: k--kato.docomment
