@@ -55,6 +55,12 @@
     "download": "0 9 * * *", // at 9AM, every day
     "upload": "0 16 * * *" // at 5PM, every day
   },
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets"
+  ],
 
   // git
   "git.enableSmartCommit": true,
@@ -64,6 +70,24 @@
   "gitlens.currentLine.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
+
+  // c#
+  "csharp.suppressHiddenDiagnostics": false,
+  "csharp.format.enable": true,
+  // "omnisharp.useEditorFormattingSettings": true,
+  // "omnisharp.enableRoslynAnalyzers": true,
+  // "omnisharp.enableEditorConfigSupport": true,
+  // "omnisharp.path": "latest",
+  // "omnisharp.useModernNet": true,
+  "dotnet-test-explorer.testProjectPath": "*.Test*",
+  "dotnet-test-explorer.autoExpandTree": true,
+  "dotnet-test-explorer.runInParallel": true,
+  "dotnet-test-explorer.treeMode": "full",
+  // keep using omnisharp
+  // "dotnet.server.useOmnisharp": true,
+
+  // Disable Microsoft being pushy ass-hats :)
+  "dotnet.automaticallyCreateSolutionInWorkspace": false,
 
   // plugins
   "extensions.autoUpdate": true,
@@ -99,17 +123,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // c#
-  "csharp.suppressHiddenDiagnostics": false,
-  "csharp.format.enable": true,
-  "omnisharp.useEditorFormattingSettings": true,
-  "omnisharp.enableRoslynAnalyzers": true,
-  "omnisharp.enableEditorConfigSupport": true,
-  "omnisharp.path": "latest",
-  "omnisharp.useModernNet": true,
-  // Disable Microsoft being pushy ass-hats :)
-  "dotnet.automaticallyCreateSolutionInWorkspace": false,
-
   // spelling
   "cSpell.language": "en",
   "cSpell.userWords": [
@@ -121,6 +134,7 @@
     "dotfiles",
     "dotnetcore",
     "esbenp",
+    "Fira",
     "Growthbook",
     "hadolint",
     "inforit",
@@ -135,11 +149,13 @@
     "mssql",
     "MYGET",
     "nginx",
+    "Noto",
     "omnisharp",
     "rickvanlieshout",
     "sandboxing",
     "Sonarcloud",
     "stylelint",
+    "tocstop",
     "Unversioned"
   ],
   "gitlens.codeLens.scopes": ["document"],
@@ -152,12 +168,6 @@
     "file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
     "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
-  "debug.javascript.usePreview": true,
-  "atlascode.bitbucket.enabled": true,
-  "atlascode.jira.lastCreateSiteAndProject": {
-    "siteId": "",
-    "projectKey": ""
-  },
   "editor.formatOnSave": true,
   "eslint.validate": [
     "javascript",
@@ -165,50 +175,7 @@
     "typescript",
     "typescriptreact"
   ],
-  "sonarlint.rules": {
-    "javascript:S3504": {
-      "level": "off"
-    },
-    "typescript:S1533": {
-      "level": "off"
-    },
-    "typescript:S1440": {
-      "level": "on"
-    },
-    "typescript:S4326": {
-      "level": "on"
-    },
-    "typescript:S909": {
-      "level": "on"
-    },
-    "typescript:S4139": {
-      "level": "on"
-    },
-    "typescript:S126": {
-      "level": "on"
-    },
-    "typescript:S3533": {
-      "level": "on"
-    },
-    "typescript:S1539": {
-      "level": "on"
-    },
-    "typescript:S131": {
-      "level": "on"
-    },
-    "typescript:S1821": {
-      "level": "on"
-    },
-    "typescript:S4327": {
-      "level": "on"
-    },
-    "csharpsquid:S1481": {
-      "level": "off"
-    },
-    "csharpsquid:S1848": {
-      "level": "off"
-    }
-  },
+
   "sonarlint.ls.javaHome": "/usr/lib/jvm/java-17-openjdk/",
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -236,14 +203,6 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "dotnet-test-explorer.autoExpandTree": true,
-  "dotnet-test-explorer.runInParallel": true,
-  "dotnet-test-explorer.treeMode": "full",
-  // keep using omnisharp
-  "dotnet.server.useOmnisharp": true,
-  "atlascode.bitbucket.pipelines.explorerEnabled": false,
-  "atlascode.bitbucket.issues.explorerEnabled": false,
-  "atlascode.jira.enabled": false,
   "terminal.external.linuxExec": "hyper",
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -262,7 +221,6 @@
   "[properties]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "npm.keybindingsChangedWarningShown": true,
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
@@ -270,7 +228,6 @@
     "editor.defaultFormatter": "jock.svg"
   },
   "githubPullRequests.pullBranch": "never",
-  "dotnet-test-explorer.testProjectPath": "*.Test*",
   "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
   "terminal.integrated.allowChords": false,
   "xml.server.vmargs": "-Xmx128M",
@@ -283,16 +240,6 @@
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
   "errorLens.excludeBySource": ["shellcheck(SC1090)"],
-  "snyk.yesWelcomeNotification": false,
-  "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
-  "snyk.trustedFolders": [
-    "/home/mastermindzh/code/rickvanlieshout.com",
-    "/home/mastermindzh/code/sieve-ts",
-    "/home/mastermindzh/Seafile/My Library/BetterVersioning.net",
-    "/home/mastermindzh/frontliners/code/starter-kits/dotnetcore-base",
-    "/home/mastermindzh/code/Tidal/tidal-hifi-git",
-    "/home/mastermindzh"
-  ],
   "sonarlint.connectedMode.connections.sonarcloud": [
     {
       "organizationKey": "mastermindzh",
@@ -305,15 +252,7 @@
   "mdb.showMongoDBHelpExplorer": false,
   "mongodbLanguageServer.trace.server": {},
   "diffEditor.ignoreTrimWhitespace": false,
-  "rest-client.previewResponsePanelTakeFocus": false,
   "workbench.iconTheme": "material-icon-theme",
-  "snyk.folderConfigs": [
-    {
-      "folderPath": "/home/mastermindzh/notes",
-      "baseBranch": "master",
-      "localBranches": [
-        "master"
-      ]
-    }
-  ]
+  "debug.onTaskErrors": "abort",
+  "git.openRepositoryInParentFolders": "never"
 }
