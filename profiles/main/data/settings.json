@@ -74,17 +74,15 @@
   // c#
   "csharp.suppressHiddenDiagnostics": false,
   "csharp.format.enable": true,
-  // "omnisharp.useEditorFormattingSettings": true,
-  // "omnisharp.enableRoslynAnalyzers": true,
-  // "omnisharp.enableEditorConfigSupport": true,
-  // "omnisharp.path": "latest",
-  // "omnisharp.useModernNet": true,
-  "dotnet-test-explorer.testProjectPath": "*.Test*",
+  "dotnet-test-explorer.testProjectPath": "*Test*",
   "dotnet-test-explorer.autoExpandTree": true,
   "dotnet-test-explorer.runInParallel": true,
   "dotnet-test-explorer.treeMode": "full",
   // keep using omnisharp
-  // "dotnet.server.useOmnisharp": true,
+  "dotnet.server.useOmnisharp": true,
+  "omnisharp.useEditorFormattingSettings": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.useModernNet": true,
 
   // Disable Microsoft being pushy ass-hats :)
   "dotnet.automaticallyCreateSolutionInWorkspace": false,
