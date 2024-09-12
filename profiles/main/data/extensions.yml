@@ -116,8 +116,14 @@ enabled:
     uuid: 13fef117-0575-4dc5-b573-5cb945a69d0a
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
     uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
+  - id: ms-vscode-remote.remote-ssh
+    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
+  - id: ms-vscode-remote.remote-ssh-edit
+    uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.mono-debug
     uuid: 28dd5df5-9ecf-486c-b2e6-517483951691
+  - id: ms-vscode.remote-explorer
+    uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
   - id: ms-vscode.test-adapter-converter
     uuid: 47210ec2-0324-4cbb-9523-9dff02a5f9ec
   - id: msjsdiag.vscode-react-native
