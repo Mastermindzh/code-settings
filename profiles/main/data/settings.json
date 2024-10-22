@@ -78,8 +78,9 @@
   "dotnet-test-explorer.autoExpandTree": true,
   "dotnet-test-explorer.runInParallel": true,
   "dotnet-test-explorer.treeMode": "full",
-  // keep using omnisharp
-  "dotnet.server.useOmnisharp": true,
+
+  // keep using omnisharp?
+  "dotnet.server.useOmnisharp": false,
   "omnisharp.useEditorFormattingSettings": true,
   "omnisharp.enableEditorConfigSupport": true,
   "omnisharp.useModernNet": true,
@@ -116,10 +117,10 @@
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
-  "hadolint.hadolintPath": "/usr/bin/hadolint",
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "hadolint.hadolintPath": "/usr/bin/hadolint",
 
   // spelling
   "cSpell.language": "en",
@@ -238,7 +239,7 @@
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
-  "errorLens.excludeBySource": ["shellcheck(SC1090)"],
+  "errorLens.excludeBySource": [],
   "sonarlint.connectedMode.connections.sonarcloud": [
     {
       "organizationKey": "mastermindzh",
