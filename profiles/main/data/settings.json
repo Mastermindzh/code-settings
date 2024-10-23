@@ -254,5 +254,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "material-icon-theme",
   "debug.onTaskErrors": "abort",
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "editor.inlineSuggest.enabled": false
 }
