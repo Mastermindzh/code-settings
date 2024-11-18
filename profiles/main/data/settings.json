@@ -255,5 +255,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "debug.onTaskErrors": "abort",
   "git.openRepositoryInParentFolders": "never",
-  "editor.inlineSuggest.enabled": false
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.chat.generateTests.codeLens": true,
+  "github.copilot.chat.inlineChatHint.enabled": true,
+  "github.copilot.chat.temporalContext.enabled": true
 }

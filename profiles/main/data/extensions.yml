@@ -4,10 +4,6 @@ disabled:
   - id: snyk-security.snyk-vulnerability-scanner
     uuid: 360bbbc1-6275-43ce-a7e0-84027eddd2b0
 enabled:
-  - id: alfish.godot-files
-    uuid: 60d25647-71b1-417a-8005-6b22941c0895
-  - id: altamkp.godot-snippets-vscode-csharp
-    uuid: 37a28981-5771-4b11-b3df-3f242a1fbc99
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
@@ -62,8 +58,6 @@ enabled:
     uuid: bbe85820-0fe1-4ee1-a71c-63dd00773a56
   - id: gaoshan0621.csharp-format-usings
     uuid: 23c303e0-8157-4a7d-899e-2df9b250ea54
-  - id: geequlim.godot-tools
-    uuid: bbcbb8de-2baf-455f-a458-d5a6f084cebb
   - id: ghmcadams.lintlens
     uuid: 66ed4827-7677-462f-85a9-d09d0f6a71a5
   - id: GitHub.copilot
@@ -132,8 +126,6 @@ enabled:
     uuid: 47210ec2-0324-4cbb-9523-9dff02a5f9ec
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
-  - id: neikeq.godot-csharp-vscode
-    uuid: c72f4c51-2c77-4592-ba2d-365e9c474014
   - id: oouo-diogo-perdigao.docthis
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
