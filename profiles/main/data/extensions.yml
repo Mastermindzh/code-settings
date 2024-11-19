@@ -188,8 +188,6 @@ enabled:
     uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
   - id: wix.glean
     uuid: b2afde1a-6cef-4f77-971f-24e66ff2ae38
-  - id: woberg.godot-dotnet-tools
-    uuid: 449473ca-1917-4ac1-9291-41fe39e51a1f
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: yzhang.markdown-all-in-one
