@@ -260,19 +260,21 @@
   "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
   "snyk.folderConfigs": [
     {
-      "folderPath": "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs",
+      "folderPath": "/home/mastermindzh/code/frontliners-code/task-service",
       "baseBranch": "master",
       "localBranches": [
-        "bugfix/mongo-data-dependency-update",
-        "bugfix/sonarcloud-organization-name",
-        "feature/new-build-container",
+        "feature/automated-task-subjectid",
+        "feature/complete-task-refactor",
+        "feature/create-complete-automated-tasks",
         "master"
       ]
     }
   ],
   "snyk.trustedFolders": [
     "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice",
-    "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs"
+    "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs",
+    "/home/mastermindzh/code/frontliners-code/tfx-gateway",
+    "/home/mastermindzh/code/frontliners-code/task-service"
   ],
   "snyk.yesWelcomeNotification": false
 }
