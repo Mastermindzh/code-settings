@@ -1,8 +1,6 @@
 disabled:
   - id: crystal-spider.jsdoc-generator
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
-  - id: snyk-security.snyk-vulnerability-scanner
-    uuid: 360bbbc1-6275-43ce-a7e0-84027eddd2b0
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -142,6 +140,8 @@ enabled:
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
+  - id: snyk-security.snyk-vulnerability-scanner
+    uuid: 360bbbc1-6275-43ce-a7e0-84027eddd2b0
   - id: SonarSource.sonarlint-vscode
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: spywhere.guides
@@ -156,8 +156,6 @@ enabled:
     uuid: 5a882e99-34b7-4450-a0b1-f1bd94681c7b
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
-  - id: tomoki1207.pdf
-    uuid: 4386e6f6-ec10-4463-9d23-c24278718947
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: vivaxy.vscode-conventional-commits

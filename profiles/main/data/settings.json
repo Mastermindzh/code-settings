@@ -236,14 +236,12 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "workbench.colorTheme": "Dracula Theme",
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
   "errorLens.excludeBySource": [],
   "sonarlint.connectedMode.connections.sonarcloud": [
     {
-      "organizationKey": "mastermindzh",
-      "connectionId": "public-sonarcloud"
+      "organizationKey": "frontliners",
+      "connectionId": "frontliners",
+      "disableNotifications": true
     }
   ],
   "dotnet.codeLens.enableReferencesCodeLens": false,
@@ -258,5 +256,17 @@
   "editor.inlineSuggest.enabled": false,
   "github.copilot.chat.generateTests.codeLens": true,
   "github.copilot.chat.inlineChatHint.enabled": true,
-  "github.copilot.chat.temporalContext.enabled": true
+  "github.copilot.chat.temporalContext.enabled": true,
+  "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
+  "snyk.folderConfigs": [
+    {
+      "folderPath": "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice",
+      "baseBranch": "main",
+      "localBranches": ["main"]
+    }
+  ],
+  "snyk.trustedFolders": [
+    "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice"
+  ],
+  "snyk.yesWelcomeNotification": false
 }

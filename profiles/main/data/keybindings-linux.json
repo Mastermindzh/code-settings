@@ -200,5 +200,54 @@
   {
     "key": "ctrl+alt+o",
     "command": "csharpOrganizeUsings.organize"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "-editor.action.codeAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorHasSelection && !editorReadonly"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands"
   }
 ]
