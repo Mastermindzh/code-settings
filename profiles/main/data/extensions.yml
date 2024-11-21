@@ -110,12 +110,6 @@ enabled:
     uuid: 13fef117-0575-4dc5-b573-5cb945a69d0a
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
     uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
-  - id: ms-vscode-remote.remote-ssh
-    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
-  - id: ms-vscode-remote.remote-ssh-edit
-    uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
-  - id: ms-vscode.remote-explorer
-    uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
   - id: ms-vscode.test-adapter-converter
     uuid: 47210ec2-0324-4cbb-9523-9dff02a5f9ec
   - id: msjsdiag.vscode-react-native
@@ -142,16 +136,12 @@ enabled:
     uuid: 50e01634-ba5c-4efd-985e-e427d6875366
   - id: rvest.vs-code-prettier-eslint
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
-  - id: SantaCodes.santacodes-region-viewer
-    uuid: 6d4f0ca2-30a7-43fc-b792-9385bed0f969
   - id: sburg.vscode-javascript-booster
     uuid: 3a1fe682-5a7a-4953-9ba9-77529a973d04
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
-  - id: slevesque.shader
-    uuid: 3a63675f-7987-4cff-a411-d4a9568f560c
   - id: SonarSource.sonarlint-vscode
     uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: spywhere.guides
