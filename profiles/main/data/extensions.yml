@@ -30,8 +30,6 @@ enabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: dbankier.vscode-quick-select
     uuid: c4fac055-b854-41f0-9610-f8a9d62e9b89
-  - id: donjayamanne.githistory
-    uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
   - id: dracula-theme.theme-dracula
     uuid: 4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1
   - id: eamodio.gitlens
@@ -44,8 +42,6 @@ enabled:
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: exiasr.hadolint
     uuid: c0f361c5-4179-43c5-9cb5-c4eba77388b4
-  - id: firefox-devtools.vscode-firefox-debug
-    uuid: c5f4d87f-a524-462c-ac01-923eb19cf3e9
   - id: firsttris.vscode-jest-runner
     uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: formulahendry.auto-rename-tag
@@ -154,8 +150,6 @@ enabled:
     uuid: 3a1fe682-5a7a-4953-9ba9-77529a973d04
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
-  - id: Shelex.vscode-cy-helper
-    uuid: b12981ce-d25d-4220-a458-2dd70369abab
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
   - id: slevesque.shader
