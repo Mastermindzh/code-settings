@@ -260,13 +260,19 @@
   "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
   "snyk.folderConfigs": [
     {
-      "folderPath": "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice",
-      "baseBranch": "main",
-      "localBranches": ["main"]
+      "folderPath": "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs",
+      "baseBranch": "master",
+      "localBranches": [
+        "bugfix/mongo-data-dependency-update",
+        "bugfix/sonarcloud-organization-name",
+        "feature/new-build-container",
+        "master"
+      ]
     }
   ],
   "snyk.trustedFolders": [
-    "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice"
+    "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice",
+    "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs"
   ],
   "snyk.yesWelcomeNotification": false
 }

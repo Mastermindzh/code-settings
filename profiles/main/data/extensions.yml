@@ -6,10 +6,6 @@ enabled:
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
     uuid: ee8bd070-5616-4ec9-a05b-764ba32dd4ec
-  - id: bierner.emojisense
-    uuid: 081cd2e9-bc51-4ea3-977e-544bed2e33a8
-  - id: bierner.markdown-mermaid
-    uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
   - id: blanu.vscode-styled-jsx
     uuid: 282c56aa-f02e-40b6-b55e-bfdee63cea4d
   - id: christian-kohler.npm-intellisense
@@ -48,8 +44,6 @@ enabled:
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
-  - id: G-Fidalgo.cypress-runner
-    uuid: bbe85820-0fe1-4ee1-a71c-63dd00773a56
   - id: gaoshan0621.csharp-format-usings
     uuid: 23c303e0-8157-4a7d-899e-2df9b250ea54
   - id: ghmcadams.lintlens
