@@ -260,12 +260,11 @@
   "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
   "snyk.folderConfigs": [
     {
-      "folderPath": "/home/mastermindzh/code/frontliners-code/task-service",
+      "folderPath": "/home/mastermindzh/code/frontliners-code/order-service",
       "baseBranch": "master",
       "localBranches": [
-        "feature/automated-task-subjectid",
-        "feature/complete-task-refactor",
-        "feature/create-complete-automated-tasks",
+        "bugfix/lock-file-and-dependencies",
+        "feature/TFXQTC-146",
         "master"
       ]
     }
