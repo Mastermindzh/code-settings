@@ -249,5 +249,15 @@
   {
     "key": "ctrl+shift+p",
     "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "f5",
+    "command": "sqltools.executeQuery",
+    "when": "editorHasSelection && editorTextFocus && !config.sqltools.disableChordKeybindings"
+  },
+  {
+    "key": "ctrl+e ctrl+e",
+    "command": "-sqltools.executeQuery",
+    "when": "editorHasSelection && editorTextFocus && !config.sqltools.disableChordKeybindings"
   }
 ]

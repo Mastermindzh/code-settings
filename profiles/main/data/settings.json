@@ -275,5 +275,6 @@
     "/home/mastermindzh/code/frontliners-code/tfx-gateway",
     "/home/mastermindzh/code/frontliners-code/task-service"
   ],
-  "snyk.yesWelcomeNotification": false
+  "snyk.yesWelcomeNotification": false,
+  "sqltools.connectionExplorer.groupConnected": true
 }
