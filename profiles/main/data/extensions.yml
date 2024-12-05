@@ -62,8 +62,6 @@ enabled:
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
   - id: HookyQR.JSDocTagComplete
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
-  - id: inferrinizzard.prettier-sql-vscode
-    uuid: 386997b1-f715-42f5-91e4-618a439c19b8
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
   - id: jeremycaron.csharp-organize-usings
