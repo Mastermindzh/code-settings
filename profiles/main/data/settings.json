@@ -280,17 +280,5 @@
   "workbench.editor.enablePreview": false,
   "[sql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "sqltools.connections": [
-    {
-      "previewLimit": 50,
-      "server": "aws-0-us-east-1.pooler.supabase.com",
-      "port": 6543,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "rickvanlieshout.com",
-      "username": "postgres.xpdoxqkshyrpbazxmajb",
-      "database": "postgres"
-    }
-  ]
+  }
 }
