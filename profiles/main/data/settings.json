@@ -280,5 +280,8 @@
   "workbench.editor.enablePreview": false,
   "[sql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.curl": "http"
   }
 }

@@ -2,6 +2,8 @@ disabled:
   - id: crystal-spider.jsdoc-generator
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
 enabled:
+  - id: AnokhaLabs.curl-runner
+    uuid: a1bc9495-d039-45b6-a30b-81c439faf60c
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
@@ -64,6 +66,8 @@ enabled:
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
   - id: HookyQR.JSDocTagComplete
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
+  - id: humao.rest-client
+    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
   - id: jeremycaron.csharp-organize-usings
