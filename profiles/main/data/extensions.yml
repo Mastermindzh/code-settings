@@ -156,6 +156,8 @@ enabled:
     uuid: 2fd15774-7e16-4a26-8d43-6992110a6b72
   - id: TakumiI.markdowntable
     uuid: 5a882e99-34b7-4450-a0b1-f1bd94681c7b
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: timonwong.shellcheck
     uuid: f95d8fff-f70a-4ae5-bb06-5c47ddbc8fc6
   - id: unifiedjs.vscode-mdx
