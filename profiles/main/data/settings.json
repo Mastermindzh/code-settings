@@ -284,4 +284,11 @@
     "*.curl": "http"
   },
   "github.copilot.chat.editor.temporalContext.enabled": true
+  // "terminal.integrated.profiles.linux": {
+  //   "bash": {
+  //     "path": "/bin/bash",
+  //     "icon": "terminal-bash",
+  //     "args": ["-l"]
+  //   }
+  // }
 }
