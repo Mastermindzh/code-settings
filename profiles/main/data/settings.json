@@ -165,8 +165,8 @@
   },
   "yaml.schemas": {
     "file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
-    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
-    "https://raw.githubusercontent.com/compose-spec/compose-spec/260582406ace6cf4f239ea861903549bb97c45eb/schema/compose-spec.json": "{docker-compose*.yml,compose*.yml}"
+    "https://raw.githubusercontent.com/compose-spec/compose-spec/260582406ace6cf4f239ea861903549bb97c45eb/schema/compose-spec.json": "{docker-compose*.yml,compose*.yml}",
+    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.4.13/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "editor.formatOnSave": true,
   "eslint.validate": [
