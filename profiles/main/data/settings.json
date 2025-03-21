@@ -283,5 +283,6 @@
   "files.associations": {
     "*.curl": "http"
   },
-  "github.copilot.chat.editor.temporalContext.enabled": true
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "sqltools.results.reuseTabs": "connection"
 }
