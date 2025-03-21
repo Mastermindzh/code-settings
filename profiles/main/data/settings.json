@@ -278,7 +278,7 @@
   "sqltools.connectionExplorer.groupConnected": true,
   "workbench.editor.enablePreview": false,
   "[sql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "mtxr.sqltools"
   },
   "files.associations": {
     "*.curl": "http"
