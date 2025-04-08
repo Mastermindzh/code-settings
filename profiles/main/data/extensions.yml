@@ -1,6 +1,6 @@
 disabled:
   - id: crystal-spider.jsdoc-generator
-    uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
