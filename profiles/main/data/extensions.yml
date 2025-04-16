@@ -1,6 +1,8 @@
 disabled:
   - id: crystal-spider.jsdoc-generator
     uuid: 00000000-0000-0000-0000-000000000000
+  - id: nromanov.dotrush
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
