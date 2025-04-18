@@ -284,5 +284,6 @@
     "*.curl": "http"
   },
   "github.copilot.chat.editor.temporalContext.enabled": true,
-  "sqltools.results.reuseTabs": "connection"
+  "sqltools.results.reuseTabs": "connection",
+  "terminal.integrated.defaultProfile.linux": "bash"
 }
