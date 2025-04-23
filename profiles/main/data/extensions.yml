@@ -76,6 +76,8 @@ enabled:
     uuid: d0c75e48-068c-45ed-9f35-5de217507185
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
+  - id: jtr.vscode-position
+    uuid: 686dfeeb-41da-432f-90da-42bb523d83f6
   - id: k--kato.docomment
     uuid: d1a2eab4-aa6e-4094-93b3-6a007f60bd9d
   - id: k--kato.intellij-idea-keybindings
