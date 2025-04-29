@@ -1,8 +1,4 @@
-disabled:
-  - id: crystal-spider.jsdoc-generator
-    uuid: 00000000-0000-0000-0000-000000000000
-  - id: nromanov.dotrush
-    uuid: 00000000-0000-0000-0000-000000000000
+disabled: []
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -20,6 +16,8 @@ enabled:
     uuid: 4bbfd0d5-c934-445f-ab56-1b2167378db2
   - id: craigthomas.supersharp
     uuid: b77fdb35-f82d-4854-8205-a2783978a809
+  - id: crystal-spider.jsdoc-generator
+    uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: dbaeumer.vscode-eslint
@@ -120,6 +118,8 @@ enabled:
     uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
   - id: mtxr.sqltools-driver-pg
     uuid: ff850146-c38e-4afe-8a34-705074ae16e2
+  - id: nromanov.dotrush
+    uuid: 5bda1f9b-bcc3-479b-b8fb-9397451f6a39
   - id: oouo-diogo-perdigao.docthis
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
