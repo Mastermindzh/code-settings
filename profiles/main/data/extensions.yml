@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: eamodio.gitlens
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -30,8 +32,6 @@ enabled:
     uuid: aa98a064-0f79-4961-a4b7-78df16d547ee
   - id: dracula-theme.theme-dracula
     uuid: 4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1
-  - id: eamodio.gitlens
-    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: ecmel.vscode-html-css
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
