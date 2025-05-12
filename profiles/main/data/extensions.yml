@@ -1,4 +1,9 @@
-disabled: []
+builtin:
+  disabled:
+    - vscode.prompt
+disabled:
+  - id: Supabase.vscode-supabase-extension
+    uuid: 2fd15774-7e16-4a26-8d43-6992110a6b72
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -160,8 +165,6 @@ enabled:
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: stylelint.vscode-stylelint
     uuid: ec35b5a3-9802-4c68-b5ff-e85f19ec0977
-  - id: Supabase.vscode-supabase-extension
-    uuid: 2fd15774-7e16-4a26-8d43-6992110a6b72
   - id: TakumiI.markdowntable
     uuid: 5a882e99-34b7-4450-a0b1-f1bd94681c7b
   - id: tamasfe.even-better-toml
