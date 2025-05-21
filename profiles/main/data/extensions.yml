@@ -146,8 +146,6 @@ enabled:
     uuid: 3a1fe682-5a7a-4953-9ba9-77529a973d04
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
-  - id: ShipitSmarter.sops-edit
-    uuid: b074352d-8441-44bb-9d63-8215c7a4bbf4
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
   - id: SonarSource.sonarlint-vscode
