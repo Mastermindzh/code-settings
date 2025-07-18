@@ -150,8 +150,6 @@ enabled:
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
-  - id: SonarSource.sonarlint-vscode
-    uuid: a7fa941e-bcda-486f-8141-8483a6286177
   - id: spywhere.guides
     uuid: 38ad8277-d23f-4cfc-becf-c77e41c3f2ee
   - id: steoates.autoimport
