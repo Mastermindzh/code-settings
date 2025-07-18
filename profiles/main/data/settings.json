@@ -286,5 +286,6 @@
   "github.copilot.chat.editor.temporalContext.enabled": true,
   "sqltools.results.reuseTabs": "connection",
   "terminal.integrated.defaultProfile.linux": "bash",
-  "docker.extension.enableComposeLanguageServer": false
+  "docker.extension.enableComposeLanguageServer": false,
+  "github.copilot.nextEditSuggestions.enabled": true
 }
