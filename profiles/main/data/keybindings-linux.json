@@ -279,5 +279,10 @@
     "key": "ctrl+o",
     "command": "-workbench.action.files.openFileFolder",
     "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-issue.createIssueFromFile",
+    "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
   }
 ]

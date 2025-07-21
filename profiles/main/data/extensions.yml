@@ -70,6 +70,8 @@ enabled:
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: ipedrazas.kubernetes-snippets
     uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
+  - id: ivov.n8n-utils
+    uuid: dfa57366-95de-4ad5-a0e0-36aa789cb34a
   - id: jeremycaron.csharp-organize-usings
     uuid: d0c75e48-068c-45ed-9f35-5de217507185
   - id: jock.svg
