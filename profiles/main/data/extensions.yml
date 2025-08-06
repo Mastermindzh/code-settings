@@ -1,4 +1,6 @@
-disabled: []
+disabled:
+  - id: formulahendry.dotnet-test-explorer
+    uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -44,8 +46,6 @@ enabled:
     uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
-  - id: formulahendry.dotnet-test-explorer
-    uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: foxundermoon.shell-format
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
   - id: gaoshan0621.csharp-format-usings
@@ -78,6 +78,8 @@ enabled:
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
   - id: jtr.vscode-position
     uuid: 686dfeeb-41da-432f-90da-42bb523d83f6
+  - id: justjavac.vscode-deno-extensionpack
+    uuid: 6c388429-85a1-4e78-b1ec-a29f7b4d03de
   - id: k--kato.docomment
     uuid: d1a2eab4-aa6e-4094-93b3-6a007f60bd9d
   - id: k--kato.intellij-idea-keybindings
@@ -88,6 +90,8 @@ enabled:
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
   - id: kreativ-software.csharpextensions
     uuid: 80c8f9ff-3535-4b4a-b3db-e88f5752bb18
+  - id: laurencebahiirwa.deno-std-lib-snippets
+    uuid: 0f2291d4-80c8-4eb1-a56c-ee8a283e4e82
   - id: mads-hartmann.bash-ide-vscode
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
   - id: mde.select-highlight-minimap
