@@ -82,6 +82,8 @@ enabled:
     uuid: d1a2eab4-aa6e-4094-93b3-6a007f60bd9d
   - id: k--kato.intellij-idea-keybindings
     uuid: f30b63fa-e34a-40af-a573-5de5ecfb6c5e
+  - id: k6.k6
+    uuid: 0592bf58-f5ed-457d-aded-7a863938e743
   - id: kingsimba.tsdoc-comment
     uuid: edd76a14-7bd4-45af-a5c6-b92e841b4541
   - id: kisstkondoros.vscode-gutter-preview
