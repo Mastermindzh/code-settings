@@ -288,7 +288,7 @@
   "terminal.integrated.defaultProfile.linux": "bash",
   "docker.extension.enableComposeLanguageServer": false,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "mdb.mcp.server": "enabled",
+  "mdb.mcp.server": "prompt",
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
