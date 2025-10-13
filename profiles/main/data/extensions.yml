@@ -1,6 +1,3 @@
-builtin:
-  disabled:
-    - vscode.mermaid-chat-features
 disabled:
   - id: formulahendry.dotnet-test-explorer
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
