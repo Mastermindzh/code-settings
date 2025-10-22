@@ -126,8 +126,6 @@ enabled:
     uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
   - id: mtxr.sqltools-driver-pg
     uuid: ff850146-c38e-4afe-8a34-705074ae16e2
-  - id: nromanov.dotrush
-    uuid: 5bda1f9b-bcc3-479b-b8fb-9397451f6a39
   - id: oouo-diogo-perdigao.docthis
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
