@@ -1,6 +1,8 @@
 disabled:
   - id: formulahendry.dotnet-test-explorer
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
+  - id: GitHub.copilot
+    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
@@ -52,8 +54,6 @@ enabled:
     uuid: 23c303e0-8157-4a7d-899e-2df9b250ea54
   - id: ghmcadams.lintlens
     uuid: 66ed4827-7677-462f-85a9-d09d0f6a71a5
-  - id: GitHub.copilot
-    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
   - id: GitHub.copilot-chat
     uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
   - id: github.vscode-github-actions
