@@ -114,8 +114,6 @@ enabled:
     uuid: d0bfc4ab-1d3a-4487-8782-7cf6027b4fff
   - id: ms-dotnettools.vscode-dotnet-runtime
     uuid: 1aab81a1-b3d9-4aef-976b-577d5d90fe3f
-  - id: ms-dotnettools.vscodeintellicode-csharp
-    uuid: 13fef117-0575-4dc5-b573-5cb945a69d0a
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
     uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
   - id: ms-vscode.test-adapter-converter
