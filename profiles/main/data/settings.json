@@ -302,5 +302,6 @@
   },
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "chat.viewSessions.enabled": false
 }
