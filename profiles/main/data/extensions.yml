@@ -94,6 +94,8 @@ enabled:
     uuid: 0f2291d4-80c8-4eb1-a56c-ee8a283e4e82
   - id: mads-hartmann.bash-ide-vscode
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
+  - id: mattpocock.ts-error-translator
+    uuid: e78c7d39-3c30-4ef3-a3bd-b5b641cb91eb
   - id: mde.select-highlight-minimap
     uuid: 54e51aa5-16bd-47ce-bb07-c66ebc0e17a8
   - id: mikestead.dotenv
