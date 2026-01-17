@@ -8,6 +8,8 @@ enabled:
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
     uuid: ee8bd070-5616-4ec9-a05b-764ba32dd4ec
+  - id: biomejs.biome
+    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
   - id: blanu.vscode-styled-jsx
     uuid: 282c56aa-f02e-40b6-b55e-bfdee63cea4d
   - id: christian-kohler.npm-intellisense
