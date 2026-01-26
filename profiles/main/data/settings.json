@@ -74,10 +74,6 @@
   // c#
   "csharp.suppressHiddenDiagnostics": false,
   "csharp.format.enable": true,
-  "dotnet-test-explorer.testProjectPath": "*Test*",
-  "dotnet-test-explorer.autoExpandTree": true,
-  "dotnet-test-explorer.runInParallel": true,
-  "dotnet-test-explorer.treeMode": "full",
 
   // keep using omnisharp?
   "dotnet.server.useOmnisharp": false,
@@ -176,7 +172,6 @@
     "typescriptreact",
   ],
 
-  "sonarlint.ls.javaHome": "/usr/lib/jvm/java-17-openjdk/",
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
   },
@@ -185,41 +180,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "diffEditor.maxComputationTime": 0,
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]",
-  ],
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "redhat.telemetry.enabled": true,
+  "redhat.telemetry.enabled": false,
 
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-  },
-  "terminal.external.linuxExec": "hyper",
-  "[shellscript]": {
-    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
-  },
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "emmet.optimizeStylesheetParsing": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-  },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format",
   },
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml",
@@ -237,13 +202,6 @@
   },
   "workbench.colorTheme": "Dracula Theme",
   "errorLens.excludeBySource": [],
-  "sonarlint.connectedMode.connections.sonarcloud": [
-    {
-      "organizationKey": "frontliners",
-      "connectionId": "frontliners",
-      "disableNotifications": true,
-    },
-  ],
   "dotnet.codeLens.enableReferencesCodeLens": false,
   "dotnet.codeLens.enableTestsCodeLens": false,
   "mdb.confirmRunAll": false,
@@ -256,25 +214,6 @@
   "editor.inlineSuggest.enabled": false,
   "github.copilot.chat.generateTests.codeLens": true,
   "github.copilot.chat.inlineChatHint.enabled": true,
-  "snyk.advanced.cliPath": "/home/mastermindzh/.local/share/snyk-ls/snyk-linux",
-  "snyk.folderConfigs": [
-    {
-      "folderPath": "/home/mastermindzh/code/frontliners-code/order-service",
-      "baseBranch": "master",
-      "localBranches": [
-        "bugfix/lock-file-and-dependencies",
-        "feature/TFXQTC-146",
-        "master",
-      ],
-    },
-  ],
-  "snyk.trustedFolders": [
-    "/home/mastermindzh/code/frontliners-code/applicants/SampleMicroservice",
-    "/home/mastermindzh/code/frontliners-code/starter-kits/dotnetcore-cqrs",
-    "/home/mastermindzh/code/frontliners-code/tfx-gateway",
-    "/home/mastermindzh/code/frontliners-code/task-service",
-  ],
-  "snyk.yesWelcomeNotification": false,
   "sqltools.connectionExplorer.groupConnected": true,
   "workbench.editor.enablePreview": false,
   "[sql]": {
@@ -305,4 +244,30 @@
   },
   "chat.viewSessions.enabled": false,
   "totalTypeScript.hiddenTips": ["ts-object-type"],
+
+  "shellcheck.useWorkspaceRootAsCwd": true,
+  "shellcheck.enable": true,
+  "shellcheck.run": "onSave",
+  "shellcheck.ignorePatterns": {
+    "**/*.cs": true,
+    "**/*.csx": true,
+    "**/*.csproj": true,
+    "**/*.sln": true,
+    "**/*.ts": true,
+    "**/*.tsx": true,
+    "**/*.js": true,
+    "**/*.jsx": true,
+    "**/*.json": true,
+    "**/*.yaml": true,
+    "**/*.yml": true,
+    "**/*.md": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/vendor/**": true,
+    "**/out/**": true,
+    "**/bin/**": true,
+    "**/obj/**": true,
+    "**/.git/**": true,
+  },
 }
