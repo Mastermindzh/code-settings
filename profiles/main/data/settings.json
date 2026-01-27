@@ -270,4 +270,7 @@
     "**/obj/**": true,
     "**/.git/**": true,
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+  },
 }
