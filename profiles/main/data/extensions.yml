@@ -1,4 +1,10 @@
 disabled:
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: firsttris.vscode-jest-runner
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: formulahendry.dotnet-test-explorer
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: GitHub.copilot
@@ -26,8 +32,6 @@ enabled:
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
-  - id: dbaeumer.vscode-eslint
-    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: dbankier.vscode-quick-select
     uuid: c4fac055-b854-41f0-9610-f8a9d62e9b89
   - id: denoland.vscode-deno
@@ -42,12 +46,8 @@ enabled:
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: esbenp.prettier-vscode
-    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: exiasr.hadolint
     uuid: c0f361c5-4179-43c5-9cb5-c4eba77388b4
-  - id: firsttris.vscode-jest-runner
-    uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: foxundermoon.shell-format
