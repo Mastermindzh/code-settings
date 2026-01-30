@@ -4,7 +4,7 @@ disabled:
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: firsttris.vscode-jest-runner
-    uuid: 00000000-0000-0000-0000-000000000000
+    uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: formulahendry.dotnet-test-explorer
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: GitHub.copilot
