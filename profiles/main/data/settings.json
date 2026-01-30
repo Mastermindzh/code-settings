@@ -177,7 +177,7 @@
   },
   "editor.suggestSelection": "first",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "diffEditor.maxComputationTime": 0,
   "redhat.telemetry.enabled": false,
