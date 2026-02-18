@@ -7,8 +7,6 @@ disabled:
     uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: formulahendry.dotnet-test-explorer
     uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
-  - id: GitHub.copilot
-    uuid: 00000000-0000-0000-0000-000000000000
 enabled:
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
