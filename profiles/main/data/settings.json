@@ -8,7 +8,6 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": false,
   "explorer.confirmDelete": false,
-
   // files
   "files.autoSave": "onFocusChange",
   "files.exclude": {
@@ -30,7 +29,6 @@
       "when": "$(basename)",
     },
   },
-
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
@@ -39,7 +37,6 @@
     "**/venv/**": true,
     "env-*": true,
   },
-
   // search options
   "search.exclude": {
     "**/.git": true,
@@ -61,7 +58,6 @@
     "settings",
     "snippets",
   ],
-
   // git
   "git.enableSmartCommit": true,
   "git.autofetch": true,
@@ -70,30 +66,25 @@
   "gitlens.currentLine.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
-
   // c#
   "csharp.suppressHiddenDiagnostics": false,
   "csharp.format.enable": true,
-
   // keep using omnisharp?
   "dotnet.server.useOmnisharp": false,
   "omnisharp.useEditorFormattingSettings": true,
   "omnisharp.enableEditorConfigSupport": true,
   "omnisharp.useModernNet": true,
-
   // Disable Microsoft being pushy ass-hats :)
   "dotnet.automaticallyCreateSolutionInWorkspace": false,
-
   // plugins
   "extensions.autoUpdate": true,
   "guides.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.preferences.importModuleSpecifier": "relative",
-
   // prettier
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
@@ -117,7 +108,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "hadolint.hadolintPath": "/usr/bin/hadolint",
-
   // spelling
   "cSpell.language": "en",
   "cSpell.userWords": [
@@ -153,7 +143,9 @@
     "tocstop",
     "Unversioned",
   ],
-  "gitlens.codeLens.scopes": ["document"],
+  "gitlens.codeLens.scopes": [
+    "document"
+  ],
   "vs-kubernetes": {
     "vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
     "vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
@@ -171,7 +163,6 @@
     "typescript",
     "typescriptreact",
   ],
-
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
   },
@@ -181,7 +172,6 @@
   },
   "diffEditor.maxComputationTime": 0,
   "redhat.telemetry.enabled": false,
-
   "emmet.optimizeStylesheetParsing": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -243,8 +233,9 @@
     "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "chat.viewSessions.enabled": false,
-  "totalTypeScript.hiddenTips": ["ts-object-type"],
-
+  "totalTypeScript.hiddenTips": [
+    "ts-object-type"
+  ],
   "shellcheck.useWorkspaceRootAsCwd": true,
   "shellcheck.enable": true,
   "shellcheck.run": "onSave",
