@@ -79,9 +79,8 @@
   // plugins
   "extensions.autoUpdate": true,
   "guides.enabled": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.preferences.importModuleSpecifier": "relative",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.importModuleSpecifier": "relative",
   // prettier
   "[json]": {
     "editor.defaultFormatter": "biomejs.biome",
@@ -96,16 +95,16 @@
     "editor.defaultFormatter": "vscode.html-language-features",
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp",
   },
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "hadolint.hadolintPath": "/usr/bin/hadolint",
   // spelling
@@ -157,12 +156,6 @@
     "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.4.13/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
   },
   "editor.formatOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-  ],
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
   },
@@ -200,20 +193,14 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "material-icon-theme",
   "debug.onTaskErrors": "abort",
+  // if tests are slow you can try to enable:
+  // "debug.javascript.autoAttachFilter": "disabled",
   "git.openRepositoryInParentFolders": "never",
   "editor.inlineSuggest.enabled": false,
-  "github.copilot.chat.generateTests.codeLens": true,
-  "github.copilot.chat.inlineChatHint.enabled": true,
-  "sqltools.connectionExplorer.groupConnected": true,
   "workbench.editor.enablePreview": false,
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools",
-  },
   "files.associations": {
     "*.curl": "http",
   },
-  "github.copilot.chat.editor.temporalContext.enabled": true,
-  "sqltools.results.reuseTabs": "connection",
   "terminal.integrated.defaultProfile.linux": "bash",
   "docker.extension.enableComposeLanguageServer": false,
   "github.copilot.nextEditSuggestions.enabled": true,
@@ -233,9 +220,6 @@
     "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "chat.viewSessions.enabled": false,
-  "totalTypeScript.hiddenTips": [
-    "ts-object-type"
-  ],
   "shellcheck.useWorkspaceRootAsCwd": true,
   "shellcheck.enable": true,
   "shellcheck.run": "onSave",
