@@ -257,4 +257,5 @@
     "https://biomejs.dev": true,
     "https://docs.renovatebot.com": true
   },
+  "chat.agent.maxRequests": 500,
 }
