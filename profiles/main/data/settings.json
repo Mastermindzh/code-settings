@@ -219,7 +219,6 @@
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
   },
-  "chat.viewSessions.enabled": false,
   "shellcheck.useWorkspaceRootAsCwd": true,
   "shellcheck.enable": true,
   "shellcheck.run": "onSave",
@@ -258,4 +257,5 @@
     "https://docs.renovatebot.com": true
   },
   "chat.agent.maxRequests": 500,
+  "chat.viewSessions.orientation": "stacked",
 }
