@@ -3,6 +3,7 @@
   "editor.fontFamily": "'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
   "editor.fontLigatures": true,
   "editor.insertSpaces": true,
+  "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": true,
   "editor.bracketPairColorization.enabled": true,
