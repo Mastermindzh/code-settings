@@ -90,7 +90,7 @@
     "editor.defaultFormatter": "vscode.json-language-features",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.defaultFormatter": "biomejs.biome",
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
