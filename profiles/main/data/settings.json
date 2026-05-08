@@ -259,4 +259,5 @@
   },
   "chat.agent.maxRequests": 500,
   "chat.viewSessions.orientation": "stacked",
+  "terminal.integrated.initialHint": false,
 }
