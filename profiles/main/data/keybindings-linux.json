@@ -25,7 +25,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+alt+v",
+    "key": "numpad6 numpad5",
     "command": "markdown.showPreview",
     "when": "editorLangId == 'markdown'"
   },
@@ -98,7 +98,10 @@
     "key": "ctrl+shift+alt+/",
     "command": "extension.addDocComments"
   },
-  { "key": "ctrl+`", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus"
+  },
   {
     "key": "ctrl+`",
     "command": "workbench.action.focusActiveEditorGroup",
@@ -284,5 +287,45 @@
     "key": "ctrl+s",
     "command": "-issue.createIssueFromFile",
     "when": "!issues.creatingFromFile && resourceScheme == 'newIssue' && config.files.autoSave != 'off'"
+  },
+  {
+    "key": "numpad5 numpad5",
+    "command": "markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown-preview-enhanced.openPreview",
+    "when": "editorLangId == 'markdown'"
+  },
+  {
+    "key": "numpad9 numpad6",
+    "command": "notebook.cell.pasteAbove",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-notebook.cell.pasteAbove",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "numpad6 numpad3",
+    "command": "markdown.togglePreview",
+    "when": "!notebookEditorFocused && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.togglePreview",
+    "when": "!notebookEditorFocused && resourceLangId =~ /^(markdown|prompt|instructions|chatagent|skill)$/"
+  },
+  {
+    "key": "numpad1 numpad2",
+    "command": "markdown.extension.closePreview",
+    "when": "activeWebviewPanelId == 'markdown.preview'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.extension.closePreview",
+    "when": "activeWebviewPanelId == 'markdown.preview'"
   }
 ]
