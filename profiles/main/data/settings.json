@@ -1,6 +1,7 @@
 {
   "editor.renderWhitespace": "none",
-  "editor.fontFamily": "Z003, 'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
+  "chat.fontFamily": "'Ubuntu mono regular', Fira Code",
+  "editor.fontFamily": "'Ubuntu mono regular', Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
   "editor.fontLigatures": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
