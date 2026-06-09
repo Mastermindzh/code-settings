@@ -48,6 +48,8 @@ enabled:
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: enkia.tokyo-night
+    uuid: 1cac7443-911e-48b9-8341-49f3880c288a
   - id: exiasr.hadolint
     uuid: c0f361c5-4179-43c5-9cb5-c4eba77388b4
   - id: formulahendry.auto-rename-tag
