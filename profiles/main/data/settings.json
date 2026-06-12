@@ -1,7 +1,7 @@
 {
 	"editor.renderWhitespace": "none",
-	"chat.fontFamily": "'Ubuntu mono regular', Fira Code, monospace",
-	"editor.fontFamily": "Ubuntu Mono, Fira Code ,monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
+	"chat.fontFamily": "'Ubuntu Mono', Fira Code, monospace",
+	"editor.fontFamily": "Ubuntu Mono, Fira Code, monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
 	"editor.insertSpaces": true,
@@ -12,7 +12,7 @@
 	"editor.guides.bracketPairs": false,
 
 	"terminal.integrated.fontSize": 16,
-
+	"terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
 	"explorer.confirmDelete": false,
 	// files
 	"files.autoSave": "onFocusChange",
