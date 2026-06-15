@@ -11,8 +11,9 @@
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": false,
 
-	"terminal.integrated.fontSize": 16,
-	"terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "'UbuntuMono Nerd Font Mono', 'FiraCode Nerd Font Mono', monospace",
+	// "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
 	"explorer.confirmDelete": false,
 	// files
 	"files.autoSave": "onFocusChange",
