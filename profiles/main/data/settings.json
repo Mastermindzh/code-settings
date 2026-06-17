@@ -36,7 +36,12 @@
 			"when": "$(basename)"
 		}
 	},
+
 	"files.watcherExclude": {
+		"**/data/**": true,
+		"**/__pycache__/**": true,
+		"**/.venv/**": true,
+		"**/dist/**": true,
 		"**/.git/objects/**": true,
 		"**/.git/subtree-cache/**": true,
 		"**/node_modules/**": true,
@@ -44,6 +49,7 @@
 		"**/venv/**": true,
 		"env-*": true
 	},
+
 	// search options
 	"search.exclude": {
 		"**/.git": true,
@@ -53,6 +59,7 @@
 		"**/venv": true,
 		"**/dist": true
 	},
+
 	// sync
 	"syncSettings.crons": {
 		"review": "0 * * * *", // every hour

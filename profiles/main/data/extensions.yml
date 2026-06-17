@@ -1,12 +1,12 @@
 disabled:
+  - id: biomejs.biome
+    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: firsttris.vscode-jest-runner
     uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
-  - id: formulahendry.dotnet-test-explorer
-    uuid: 42853f4f-0c67-4aa7-bb79-a00fec9146c4
   - id: mtxr.sqltools
     uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
   - id: mtxr.sqltools-driver-pg
@@ -16,8 +16,6 @@ enabled:
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
     uuid: ee8bd070-5616-4ec9-a05b-764ba32dd4ec
-  - id: biomejs.biome
-    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
   - id: blanu.vscode-styled-jsx
     uuid: 282c56aa-f02e-40b6-b55e-bfdee63cea4d
   - id: christian-kohler.npm-intellisense
@@ -58,6 +56,8 @@ enabled:
     uuid: 5fb19573-2183-4cf2-b53d-0fb869dae7ae
   - id: gaoshan0621.csharp-format-usings
     uuid: 23c303e0-8157-4a7d-899e-2df9b250ea54
+  - id: ghmcadams.lintlens
+    uuid: 66ed4827-7677-462f-85a9-d09d0f6a71a5
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
@@ -68,10 +68,6 @@ enabled:
     uuid: 9981eadc-a934-4353-83d7-84fee5ac69e7
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
-  - id: ipedrazas.kubernetes-snippets
-    uuid: 1bf2afc4-296d-482b-89ff-3318c474a2a8
-  - id: ivov.n8n-utils
-    uuid: dfa57366-95de-4ad5-a0e0-36aa789cb34a
   - id: jock.svg
     uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
   - id: justjavac.vscode-deno-extensionpack
@@ -96,10 +92,6 @@ enabled:
     uuid: 532533c9-a894-4a58-9eee-bbfbe7c06f71
   - id: mohsen1.prettify-json
     uuid: 67e66172-30c7-4478-8f5d-6eac4ae755dc
-  - id: mongodb.mongodb-vscode
-    uuid: 4b6540da-bfa3-4b88-b9e3-df8f2d161124
-  - id: mrmlnc.vscode-scss
-    uuid: beb68b20-7c55-471c-9b63-3486f9423566
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
@@ -120,8 +112,6 @@ enabled:
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
     uuid: 7997a8ae-1fae-4022-b834-12f6318aeffd
-  - id: PascalReitermann93.vscode-yaml-sort
-    uuid: 0b4b8cd5-e418-4c5f-b288-7c825aab0efd
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
   - id: philsinatra.nested-comments
@@ -138,8 +128,6 @@ enabled:
     uuid: d4b06bd6-36a0-469f-be55-c0a73413b688
   - id: sburg.vscode-javascript-booster
     uuid: 3a1fe682-5a7a-4953-9ba9-77529a973d04
-  - id: shd101wyy.markdown-preview-enhanced
-    uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: sibiraj-s.vscode-scss-formatter
     uuid: 01708053-6fab-403f-9787-9d5f3d8f7d6a
   - id: spywhere.guides
@@ -150,8 +138,6 @@ enabled:
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: styled-components.vscode-styled-components
     uuid: 22a740c5-ec07-4bf0-a58f-1a38aabea310
-  - id: stylelint.vscode-stylelint
-    uuid: ec35b5a3-9802-4c68-b5ff-e85f19ec0977
   - id: Supabase.vscode-supabase-extension
     uuid: 2fd15774-7e16-4a26-8d43-6992110a6b72
   - id: TakumiI.markdowntable
@@ -174,8 +160,6 @@ enabled:
     uuid: b2afde1a-6cef-4f77-971f-24e66ff2ae38
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
-  - id: yzane.markdown-pdf
-    uuid: f015bc3c-a098-4245-8765-615e002e09ab
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
