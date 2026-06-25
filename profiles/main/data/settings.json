@@ -97,7 +97,7 @@
 	"js/ts.preferences.importModuleSpecifier": "relative",
 	// prettier
 	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"[jsonc]": {
 		"editor.defaultFormatter": "biomejs.biome"
