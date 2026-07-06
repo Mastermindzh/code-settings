@@ -272,5 +272,13 @@
 	"chat.viewSessions.orientation": "stacked",
 	"terminal.integrated.initialHint": false,
 	"gitlens.ai.model": "vscode",
-	"gitlens.ai.vscode.model": "copilotcli:claude-sonnet-4.6"
+	"gitlens.ai.vscode.model": "copilotcli:claude-sonnet-4.6",
+	"chat.tools.urls.autoApprove": {
+		"https://code.visualstudio.com": true,
+		"https://github.com/microsoft/vscode/wiki/*": true,
+		"https://raw.githubusercontent.com": {
+			"approveRequest": false,
+			"approveResponse": true
+		}
+	}
 }
