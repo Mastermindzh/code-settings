@@ -195,7 +195,6 @@
 	"[dotenv]": {
 		"editor.defaultFormatter": "foxundermoon.shell-format"
 	},
-	"workbench.colorTheme": "Dracula Theme",
 	"errorLens.excludeBySource": [],
 	"dotnet.codeLens.enableReferencesCodeLens": false,
 	"dotnet.codeLens.enableTestsCodeLens": false,
@@ -288,5 +287,6 @@
 		"**/.gitea/workflows/*.yaml",
 		"**/.forgejo/workflows/*.yml",
 		"**/.forgejo/workflows/*.yaml"
-	]
+	],
+	"workbench.colorTheme": "Dracula Theme"
 }
