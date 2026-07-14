@@ -91,7 +91,7 @@
 	// Disable Microsoft being pushy ass-hats :)
 	"dotnet.automaticallyCreateSolutionInWorkspace": false,
 	// plugins
-	"extensions.autoUpdate": true,
+	"extensions.autoUpdate": "on",
 	"guides.enabled": false,
 	"js/ts.updateImportsOnFileMove.enabled": "always",
 	"js/ts.preferences.importModuleSpecifier": "relative",
