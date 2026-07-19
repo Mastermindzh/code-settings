@@ -288,5 +288,21 @@
 		"**/.forgejo/workflows/*.yml",
 		"**/.forgejo/workflows/*.yaml"
 	],
-	"workbench.colorTheme": "Dracula Theme"
+
+	// color themes
+	"workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+	// color override for git diff (too light with comments)
+	"workbench.colorCustomizations": {
+			// Added
+			"diffEditor.insertedLineBackground": "#4CAF5020",
+			"diffEditor.insertedTextBackground": "#4CAF5020",
+
+			// Removed
+			"diffEditor.removedLineBackground": "#F4433620",
+			"diffEditor.removedTextBackground": "#F4433620",
+
+			// Keep the gutter obvious
+			"editorGutter.addedBackground": "#4CAF50",
+			"editorGutter.deletedBackground": "#F44336"
+	}
 }
