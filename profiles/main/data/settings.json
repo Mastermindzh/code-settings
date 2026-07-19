@@ -156,6 +156,18 @@
 		"tocstop",
 		"Unversioned"
 	],
+	  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/out/**",
+    "**/coverage/**",
+    "**/*.min.js",
+    "**/*.map",
+    "**/package-lock.json",
+    "**/pnpm-lock.yaml",
+    "**/yarn.lock"
+  ],
 	"gitlens.codeLens.scopes": ["document"],
 	"vs-kubernetes": {
 		"vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
