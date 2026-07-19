@@ -242,7 +242,7 @@
 	"[github-actions-workflow]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
-	"shellcheck.useWorkspaceRootAsCwd": true,
+	"shellcheck.useWorkspaceRootAsCwd": false,
 	"shellcheck.enable": true,
 	"shellcheck.run": "onSave",
 	"shellcheck.ignorePatterns": {
@@ -290,7 +290,10 @@
 		"https://raw.githubusercontent.com": {
 			"approveRequest": false,
 			"approveResponse": true
-		}
+		},
+		"https://github.com/mastermindzh/tidal-hifi/pull": true,
+		"https://github.com/mastermindzh/tidal-hifi": true,
+		"https://github.com/mastermindzh": true
 	},
 	"yaml.disableSchemaDetection": [
 		"**/.github/workflows/*.yml",
