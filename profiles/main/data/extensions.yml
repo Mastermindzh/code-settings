@@ -3,8 +3,6 @@ disabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
-  - id: esbenp.prettier-vscode
-    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: firsttris.vscode-jest-runner
     uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
   - id: mtxr.sqltools
@@ -48,6 +46,8 @@ enabled:
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
   - id: enkia.tokyo-night
     uuid: 1cac7443-911e-48b9-8341-49f3880c288a
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: exiasr.hadolint
     uuid: c0f361c5-4179-43c5-9cb5-c4eba77388b4
   - id: formulahendry.auto-rename-tag

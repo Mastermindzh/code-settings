@@ -96,25 +96,25 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescript]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"[scss]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[javascript]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[csharp]": {
 		"editor.defaultFormatter": "ms-dotnettools.csharp"
 	},
 	"[yaml]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"hadolint.hadolintPath": "/usr/bin/hadolint",
 	// spelling
@@ -145,6 +145,7 @@
 		"nginx",
 		"Noto",
 		"omnisharp",
+		"oxlint",
 		"rickvanlieshout",
 		"sandboxing",
 		"Sonarcloud",
@@ -183,7 +184,7 @@
 	},
 	"editor.suggestSelection": "first",
 	"[typescriptreact]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"diffEditor.maxComputationTime": 0,
 	"redhat.telemetry.enabled": false,
@@ -301,7 +302,7 @@
 		"**/.forgejo/workflows/*.yaml"
 	],
 	// color themes
-	"workbench.colorTheme": "Aura Dracula Spirit",
+	"workbench.colorTheme": "Aura Dark",
 	// color override for git diff (too light with comments)
 	"workbench.colorCustomizations": {
 		// highlights
