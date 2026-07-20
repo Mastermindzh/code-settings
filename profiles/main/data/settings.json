@@ -278,7 +278,6 @@
 		"https://docs.renovatebot.com": true
 	},
 	"chat.agent.maxRequests": 500,
-	"chat.viewSessions.orientation": "stacked",
 	"terminal.integrated.initialHint": false,
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilotcli:claude-sonnet-4.6",
@@ -326,5 +325,6 @@
 		// Keep the gutter obvious
 		"editorGutter.addedBackground": "#4CAF50",
 		"editorGutter.deletedBackground": "#F44336"
-	}
+	},
+	"chat.viewSessions.orientation": "stacked"
 }
