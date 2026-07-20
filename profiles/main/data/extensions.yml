@@ -1,6 +1,4 @@
 disabled:
-  - id: biomejs.biome
-    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: eamodio.gitlens
@@ -116,6 +114,8 @@ enabled:
     uuid: e4f871bb-b27e-4ee9-b517-998d11af8d18
   - id: Orta.vscode-jest
     uuid: 7997a8ae-1fae-4022-b834-12f6318aeffd
+  - id: oxc.oxc-vscode
+    uuid: 1303f9b3-746c-42de-869c-5f72364302f5
   - id: pflannery.vscode-versionlens
     uuid: 07fc4a0a-11fc-4121-ba9a-f0d534c729d8
   - id: philsinatra.nested-comments
