@@ -10,7 +10,6 @@
 	"editor.minimap.enabled": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": false,
-
 	"terminal.integrated.fontSize": 16,
 	// "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font Mono', 'FiraCode Nerd Font Mono', monospace",
 	// "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
@@ -36,7 +35,6 @@
 			"when": "$(basename)"
 		}
 	},
-
 	"files.watcherExclude": {
 		"**/data/**": true,
 		"**/__pycache__/**": true,
@@ -49,7 +47,6 @@
 		"**/venv/**": true,
 		"env-*": true
 	},
-
 	// search options
 	"search.exclude": {
 		"**/.git": true,
@@ -59,7 +56,6 @@
 		"**/venv": true,
 		"**/dist": true
 	},
-
 	// sync
 	"syncSettings.crons": {
 		"review": "0 * * * *", // every hour
@@ -156,19 +152,21 @@
 		"tocstop",
 		"Unversioned"
 	],
-	  "cSpell.ignorePaths": [
-    "**/node_modules/**",
-    "**/dist/**",
-    "**/build/**",
-    "**/out/**",
-    "**/coverage/**",
-    "**/*.min.js",
-    "**/*.map",
-    "**/package-lock.json",
-    "**/pnpm-lock.yaml",
-    "**/yarn.lock"
-  ],
-	"gitlens.codeLens.scopes": ["document"],
+	"cSpell.ignorePaths": [
+		"**/node_modules/**",
+		"**/dist/**",
+		"**/build/**",
+		"**/out/**",
+		"**/coverage/**",
+		"**/*.min.js",
+		"**/*.map",
+		"**/package-lock.json",
+		"**/pnpm-lock.yaml",
+		"**/yarn.lock"
+	],
+	"gitlens.codeLens.scopes": [
+		"document"
+	],
 	"vs-kubernetes": {
 		"vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
 		"vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
@@ -303,21 +301,30 @@
 		"**/.forgejo/workflows/*.yml",
 		"**/.forgejo/workflows/*.yaml"
 	],
-
 	// color themes
-	"workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+	"workbench.colorTheme": "Aura Dracula Spirit",
 	// color override for git diff (too light with comments)
 	"workbench.colorCustomizations": {
-			// Added
-			"diffEditor.insertedLineBackground": "#4CAF5020",
-			"diffEditor.insertedTextBackground": "#4CAF5020",
-
-			// Removed
-			"diffEditor.removedLineBackground": "#F4433620",
-			"diffEditor.removedTextBackground": "#F4433620",
-
-			// Keep the gutter obvious
-			"editorGutter.addedBackground": "#4CAF50",
-			"editorGutter.deletedBackground": "#F44336"
+		// highlights
+		"editor.selectionBackground": "#7C4DFF66",
+		"editor.selectionHighlightBackground": "#7C4DFF33",
+		// Find matches
+		"editor.findMatchBackground": "#7C4DFF66",
+		"editor.findMatchHighlightBackground": "#7C4DFF33",
+		// Current line
+		"editor.lineHighlightBackground": "#FFFFFF08",
+		// Hovering over a symbol
+		"editor.hoverHighlightBackground": "#FFFFFF10",
+		// Inactive selections (other editor panes)
+		"editor.inactiveSelectionBackground": "#7C4DFF44",
+		// Added
+		"diffEditor.insertedLineBackground": "#4CAF5020",
+		"diffEditor.insertedTextBackground": "#4CAF5020",
+		// Removed
+		"diffEditor.removedLineBackground": "#F4433620",
+		"diffEditor.removedTextBackground": "#F4433620",
+		// Keep the gutter obvious
+		"editorGutter.addedBackground": "#4CAF50",
+		"editorGutter.deletedBackground": "#F44336"
 	}
 }
