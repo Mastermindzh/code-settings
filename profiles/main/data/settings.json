@@ -1,331 +1,332 @@
 {
-	"editor.renderWhitespace": "none",
-	"chat.fontFamily": "'Ubuntu Mono', Fira Code, monospace",
-	"editor.fontFamily": "Ubuntu Mono, Fira Code, monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
-	"editor.fontLigatures": true,
-	"editor.fontSize": 16,
-	"editor.insertSpaces": true,
-	"editor.tabSize": 2,
-	"editor.detectIndentation": true,
-	"editor.minimap.enabled": true,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": false,
-	"terminal.integrated.fontSize": 16,
-	// "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font Mono', 'FiraCode Nerd Font Mono', monospace",
-	// "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
-	"explorer.confirmDelete": false,
-	// files
-	"files.autoSave": "onFocusChange",
-	"files.exclude": {
-		"**/.git": true,
-		"**/.npm": true,
-		"**/.config": true,
-		"*.aux": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
-		"**/.DS_Store": true,
-		"**/bin": true,
-		"**/obj": true,
-		"**/node_modules": false,
-		"**/*.js": {
-			"when": "$(basename).ts"
-		},
-		"**/*.js.map": {
-			"when": "$(basename)"
-		}
-	},
-	"files.watcherExclude": {
-		"**/data/**": true,
-		"**/__pycache__/**": true,
-		"**/.venv/**": true,
-		"**/dist/**": true,
-		"**/.git/objects/**": true,
-		"**/.git/subtree-cache/**": true,
-		"**/node_modules/**": true,
-		"**/env/**": true,
-		"**/venv/**": true,
-		"env-*": true
-	},
-	// search options
-	"search.exclude": {
-		"**/.git": true,
-		"**/node_modules": true,
-		"**/bower_components": true,
-		"**/env": true,
-		"**/venv": true,
-		"**/dist": true
-	},
-	// sync
-	"syncSettings.crons": {
-		"review": "0 * * * *", // every hour
-		"download": "0 9 * * *", // at 9AM, every day
-		"upload": "0 16 * * *" // at 5PM, every day
-	},
-	"syncSettings.resources": [
-		"extensions",
-		"keybindings",
-		"settings",
-		"snippets"
-	],
-	// git
-	"git.enableSmartCommit": true,
-	"git.autofetch": true,
-	"gitlens.codeLens.recentChange.enabled": true,
-	"gitlens.codeLens.authors.enabled": true,
-	"gitlens.currentLine.enabled": true,
-	"workbench.startupEditor": "newUntitledFile",
-	"workbench.editor.highlightModifiedTabs": true,
-	// c#
-	"csharp.suppressHiddenDiagnostics": false,
-	"csharp.format.enable": true,
-	// keep using omnisharp?
-	"dotnet.server.useOmnisharp": false,
-	"omnisharp.useEditorFormattingSettings": true,
-	"omnisharp.enableEditorConfigSupport": true,
-	"omnisharp.useModernNet": true,
-	// Disable Microsoft being pushy ass-hats :)
-	"dotnet.automaticallyCreateSolutionInWorkspace": false,
-	// plugins
-	"extensions.autoUpdate": "on",
-	"guides.enabled": false,
-	"js/ts.updateImportsOnFileMove.enabled": "always",
-	"js/ts.preferences.importModuleSpecifier": "relative",
-	// prettier
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[csharp]": {
-		"editor.defaultFormatter": "ms-dotnettools.csharp"
-	},
-	"[yaml]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"hadolint.hadolintPath": "/usr/bin/hadolint",
-	// spelling
-	"cSpell.language": "en",
-	"cSpell.userWords": [
-		"appsettings",
-		"Backoff",
-		"bitbucket",
-		"Bson",
-		"cref",
-		"dotfiles",
-		"dotnetcore",
-		"esbenp",
-		"Fira",
-		"Growthbook",
-		"hadolint",
-		"inforit",
-		"inforitnl",
-		"inheritdoc",
-		"INITDB",
-		"Lieshout",
-		"Mastermindzh",
-		"mongodb",
-		"monospace",
-		"mpris",
-		"mssql",
-		"MYGET",
-		"nginx",
-		"Noto",
-		"omnisharp",
-		"oxlint",
-		"rickvanlieshout",
-		"sandboxing",
-		"Sonarcloud",
-		"stylelint",
-		"tocstop",
-		"Unversioned"
-	],
-	"cSpell.ignorePaths": [
-		"**/node_modules/**",
-		"**/dist/**",
-		"**/build/**",
-		"**/out/**",
-		"**/coverage/**",
-		"**/*.min.js",
-		"**/*.map",
-		"**/package-lock.json",
-		"**/pnpm-lock.yaml",
-		"**/yarn.lock"
-	],
-	"gitlens.codeLens.scopes": [
-		"document"
-	],
-	"vs-kubernetes": {
-		"vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-		"vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
-		"vscode-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
-	},
-	"yaml.schemas": {
-		"file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
-		"https://raw.githubusercontent.com/compose-spec/compose-spec/260582406ace6cf4f239ea861903549bb97c45eb/schema/compose-spec.json": "{docker-compose*.yml,compose*.yml}",
-		"file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.4.13/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-	},
-	"editor.formatOnSave": true,
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
-	},
-	"editor.suggestSelection": "first",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"diffEditor.maxComputationTime": 0,
-	"redhat.telemetry.enabled": false,
-	"emmet.optimizeStylesheetParsing": false,
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
-	"[xml]": {
-		"editor.defaultFormatter": "redhat.vscode-xml"
-	},
-	"[svg]": {
-		"editor.defaultFormatter": "jock.svg"
-	},
-	"githubPullRequests.pullBranch": "never",
-	"terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
-	"terminal.integrated.allowChords": false,
-	"xml.server.vmargs": "-Xmx128M",
-	"window.menuBarVisibility": "toggle",
-	"[dotenv]": {
-		"editor.defaultFormatter": "foxundermoon.shell-format"
-	},
-	"errorLens.excludeBySource": [],
-	"dotnet.codeLens.enableReferencesCodeLens": false,
-	"dotnet.codeLens.enableTestsCodeLens": false,
-	"mdb.confirmRunAll": false,
-	"mdb.showMongoDBHelpExplorer": false,
-	"mongodbLanguageServer.trace.server": {},
-	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.iconTheme": "material-icon-theme",
-	"debug.onTaskErrors": "abort",
-	// if tests are slow you can try to enable:
-	// "debug.javascript.autoAttachFilter": "disabled",
-	"git.openRepositoryInParentFolders": "never",
-	"editor.inlineSuggest.enabled": false,
-	"workbench.editor.enablePreview": false,
-	"files.associations": {
-		"*.curl": "http"
-	},
-	"terminal.integrated.defaultProfile.linux": "bash",
-	"docker.extension.enableComposeLanguageServer": false,
-	"github.copilot.nextEditSuggestions.enabled": true,
-	"mdb.mcp.server": "prompt",
-	"[dockercompose]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2,
-		"editor.autoIndent": "advanced",
-		"editor.quickSuggestions": {
-			"other": true,
-			"comments": false,
-			"strings": true
-		},
-		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	"[github-actions-workflow]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	"shellcheck.useWorkspaceRootAsCwd": false,
-	"shellcheck.enable": true,
-	"shellcheck.run": "onSave",
-	"shellcheck.ignorePatterns": {
-		"**/*.cs": true,
-		"**/*.csx": true,
-		"**/*.csproj": true,
-		"**/*.sln": true,
-		"**/*.ts": true,
-		"**/*.tsx": true,
-		"**/*.js": true,
-		"**/*.jsx": true,
-		"**/*.json": true,
-		"**/*.yaml": true,
-		"**/*.yml": true,
-		"**/*.md": true,
-		"**/node_modules/**": true,
-		"**/dist/**": true,
-		"**/build/**": true,
-		"**/vendor/**": true,
-		"**/out/**": true,
-		"**/bin/**": true,
-		"**/obj/**": true,
-		"**/.git/**": true
-	},
-	"[markdown]": {
-		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-	},
-	"json.schemaDownload.trustedDomains": {
-		"https://schemastore.azurewebsites.net/": true,
-		"https://raw.githubusercontent.com/": true,
-		"https://www.schemastore.org/": true,
-		"https://json.schemastore.org/": true,
-		"https://json-schema.org/": true,
-		"https://biomejs.dev": true,
-		"https://docs.renovatebot.com": true
-	},
-	"chat.agent.maxRequests": 500,
-	"terminal.integrated.initialHint": false,
-	"gitlens.ai.model": "vscode",
-	"gitlens.ai.vscode.model": "copilotcli:claude-sonnet-4.6",
-	"chat.tools.urls.autoApprove": {
-		"https://code.visualstudio.com": true,
-		"https://github.com/microsoft/vscode/wiki/*": true,
-		"https://raw.githubusercontent.com": {
-			"approveRequest": false,
-			"approveResponse": true
-		},
-		"https://github.com/mastermindzh/tidal-hifi/pull": true,
-		"https://github.com/mastermindzh/tidal-hifi": true,
-		"https://github.com/mastermindzh": true
-	},
-	"yaml.disableSchemaDetection": [
-		"**/.github/workflows/*.yml",
-		"**/.github/workflows/*.yaml",
-		"**/.gitea/workflows/*.yml",
-		"**/.gitea/workflows/*.yaml",
-		"**/.forgejo/workflows/*.yml",
-		"**/.forgejo/workflows/*.yaml"
-	],
-	// color themes
-	"workbench.colorTheme": "Aura Dark",
-	// color override for git diff (too light with comments)
-	"workbench.colorCustomizations": {
-		// highlights
-		"editor.selectionBackground": "#7C4DFF66",
-		"editor.selectionHighlightBackground": "#7C4DFF33",
-		// Find matches
-		"editor.findMatchBackground": "#7C4DFF66",
-		"editor.findMatchHighlightBackground": "#7C4DFF33",
-		// Current line
-		"editor.lineHighlightBackground": "#FFFFFF08",
-		// Hovering over a symbol
-		"editor.hoverHighlightBackground": "#FFFFFF10",
-		// Inactive selections (other editor panes)
-		"editor.inactiveSelectionBackground": "#7C4DFF44",
-		// Added
-		"diffEditor.insertedLineBackground": "#4CAF5020",
-		"diffEditor.insertedTextBackground": "#4CAF5020",
-		// Removed
-		"diffEditor.removedLineBackground": "#F4433620",
-		"diffEditor.removedTextBackground": "#F4433620",
-		// Keep the gutter obvious
-		"editorGutter.addedBackground": "#4CAF50",
-		"editorGutter.deletedBackground": "#F44336"
-	},
-	"chat.viewSessions.orientation": "stacked"
+  "editor.renderWhitespace": "none",
+  "chat.fontFamily": "'Ubuntu Mono', Fira Code, monospace",
+  "editor.fontFamily": "Ubuntu Mono, Fira Code, monospace, 'Noto Color Emoji','Droid Sans Fallback','FontAwesome brands',FontAwesome, Awesome, 'Droid Sans Mono', 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": false,
+  "terminal.integrated.fontSize": 16,
+  // "terminal.integrated.fontFamily": "'UbuntuMono Nerd Font Mono', 'FiraCode Nerd Font Mono', monospace",
+  // "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code, monospace",
+  "explorer.confirmDelete": false,
+  // files
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.npm": true,
+    "**/.config": true,
+    "*.aux": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/node_modules": false,
+    "**/*.js": {
+      "when": "$(basename).ts",
+    },
+    "**/*.js.map": {
+      "when": "$(basename)",
+    },
+  },
+  "files.watcherExclude": {
+    "**/data/**": true,
+    "**/__pycache__/**": true,
+    "**/.venv/**": true,
+    "**/dist/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true,
+  },
+  // search options
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true,
+    "**/dist": true,
+  },
+  // sync
+  "syncSettings.crons": {
+    "review": "0 * * * *", // every hour
+    "download": "0 9 * * *", // at 9AM, every day
+    "upload": "0 16 * * *", // at 5PM, every day
+  },
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets",
+  ],
+  // git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "gitlens.codeLens.recentChange.enabled": true,
+  "gitlens.codeLens.authors.enabled": true,
+  "gitlens.currentLine.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
+  // c#
+  "csharp.suppressHiddenDiagnostics": false,
+  "csharp.format.enable": true,
+  // keep using omnisharp?
+  "dotnet.server.useOmnisharp": false,
+  "omnisharp.useEditorFormattingSettings": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.useModernNet": true,
+  // Disable Microsoft being pushy ass-hats :)
+  "dotnet.automaticallyCreateSolutionInWorkspace": false,
+  // plugins
+  "extensions.autoUpdate": "on",
+  "guides.enabled": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.preferences.importModuleSpecifier": "relative",
+  // prettier
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "hadolint.hadolintPath": "/usr/bin/hadolint",
+  // spelling
+  "cSpell.language": "en",
+  "cSpell.userWords": [
+    "appsettings",
+    "Backoff",
+    "bitbucket",
+    "Bson",
+    "cref",
+    "dotfiles",
+    "dotnetcore",
+    "esbenp",
+    "Fira",
+    "Growthbook",
+    "hadolint",
+    "inforit",
+    "inforitnl",
+    "inheritdoc",
+    "INITDB",
+    "Lieshout",
+    "Mastermindzh",
+    "mongodb",
+    "monospace",
+    "mpris",
+    "mssql",
+    "MYGET",
+    "nginx",
+    "Noto",
+    "omnisharp",
+    "oxlint",
+    "rickvanlieshout",
+    "sandboxing",
+    "Sonarcloud",
+    "stylelint",
+    "tocstop",
+    "Unversioned",
+  ],
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/out/**",
+    "**/coverage/**",
+    "**/*.min.js",
+    "**/*.map",
+    "**/package-lock.json",
+    "**/pnpm-lock.yaml",
+    "**/yarn.lock",
+  ],
+  "gitlens.codeLens.scopes": ["document"],
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.draft-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/draft/linux-amd64/draft",
+    "vscode-kubernetes.minikube-path.linux": "/home/mastermindzh/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+  },
+  "yaml.schemas": {
+    "file:///home/mastermindzh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i",
+    "https://raw.githubusercontent.com/compose-spec/compose-spec/260582406ace6cf4f239ea861903549bb97c45eb/schema/compose-spec.json": "{docker-compose*.yml,compose*.yml}",
+    "file:///home/mastermindzh/.vscode/extensions/atlassian.atlascode-3.4.13/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+  },
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "editor.suggestSelection": "first",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "diffEditor.maxComputationTime": 0,
+  "redhat.telemetry.enabled": false,
+  "emmet.optimizeStylesheetParsing": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg",
+  },
+  "githubPullRequests.pullBranch": "never",
+  "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
+  "terminal.integrated.allowChords": false,
+  "xml.server.vmargs": "-Xmx128M",
+  "window.menuBarVisibility": "toggle",
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+  },
+  "errorLens.excludeBySource": [],
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "dotnet.codeLens.enableTestsCodeLens": false,
+  "mdb.confirmRunAll": false,
+  "mdb.showMongoDBHelpExplorer": false,
+  "mongodbLanguageServer.trace.server": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "debug.onTaskErrors": "abort",
+  // if tests are slow you can try to enable:
+  // "debug.javascript.autoAttachFilter": "disabled",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.inlineSuggest.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "files.associations": {
+    "*.curl": "http",
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "docker.extension.enableComposeLanguageServer": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "mdb.mcp.server": "prompt",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true,
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "shellcheck.useWorkspaceRootAsCwd": false,
+  "shellcheck.enable": true,
+  "shellcheck.run": "onSave",
+  "shellcheck.ignorePatterns": {
+    "**/*.cs": true,
+    "**/*.csx": true,
+    "**/*.csproj": true,
+    "**/*.sln": true,
+    "**/*.ts": true,
+    "**/*.tsx": true,
+    "**/*.js": true,
+    "**/*.jsx": true,
+    "**/*.json": true,
+    "**/*.yaml": true,
+    "**/*.yml": true,
+    "**/*.md": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/vendor/**": true,
+    "**/out/**": true,
+    "**/bin/**": true,
+    "**/obj/**": true,
+    "**/.git/**": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://biomejs.dev": true,
+    "https://docs.renovatebot.com": true,
+  },
+  "chat.agent.maxRequests": 500,
+  "terminal.integrated.initialHint": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilotcli:claude-sonnet-4.6",
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://raw.githubusercontent.com": {
+      "approveRequest": false,
+      "approveResponse": true,
+    },
+    "https://github.com/mastermindzh/tidal-hifi/pull": true,
+    "https://github.com/mastermindzh/tidal-hifi": true,
+    "https://github.com/mastermindzh": true,
+  },
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml",
+  ],
+  // color themes
+  "workbench.colorTheme": "Aura Dark",
+  // color override for git diff (too light with comments)
+  "workbench.colorCustomizations": {
+    // highlights
+    "editor.selectionBackground": "#7C4DFF66",
+    "editor.selectionHighlightBackground": "#7C4DFF33",
+    // Find matches
+    "editor.findMatchBackground": "#7C4DFF66",
+    "editor.findMatchHighlightBackground": "#7C4DFF33",
+    // Current line
+    "editor.lineHighlightBackground": "#FFFFFF08",
+    // Hovering over a symbol
+    "editor.hoverHighlightBackground": "#FFFFFF10",
+    // Inactive selections (other editor panes)
+    "editor.inactiveSelectionBackground": "#7C4DFF44",
+    // Added
+    "diffEditor.insertedLineBackground": "#4CAF5020",
+    "diffEditor.insertedTextBackground": "#4CAF5020",
+    // Removed
+    "diffEditor.removedLineBackground": "#F4433620",
+    "diffEditor.removedTextBackground": "#F4433620",
+    // Keep the gutter obvious
+    "editorGutter.addedBackground": "#4CAF50",
+    "editorGutter.deletedBackground": "#F44336",
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
