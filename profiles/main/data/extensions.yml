@@ -10,6 +10,8 @@ disabled:
   - id: mtxr.sqltools-driver-pg
     uuid: ff850146-c38e-4afe-8a34-705074ae16e2
 enabled:
+  - id: aleksandra.go-group-imports
+    uuid: a34ccfaa-61bb-4697-9e55-e9b1f077cfa9
   - id: anseki.vscode-color
     uuid: 37d7747f-e652-4eac-83de-f2939f7e2121
   - id: bhank.vscode-bad-code-highlighter
@@ -62,6 +64,8 @@ enabled:
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
     uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
   - id: hbenl.vscode-test-explorer
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
   - id: HookyQR.JSDocTagComplete
@@ -122,6 +126,8 @@ enabled:
     uuid: 03b96169-4c19-4c9e-ada8-d5d208ebe80e
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
+  - id: premparihar.gotestexplorer
+    uuid: 35ab00b9-99c0-4bc3-8bf4-44632dbfdb2a
   - id: redhat.vscode-xml
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
   - id: redhat.vscode-yaml
