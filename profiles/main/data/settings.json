@@ -290,6 +290,7 @@
     "https://github.com/mastermindzh/tidal-hifi/pull": true,
     "https://github.com/mastermindzh/tidal-hifi": true,
     "https://github.com/mastermindzh": true,
+    "https://docs.rs": true,
   },
   "yaml.disableSchemaDetection": [
     "**/.github/workflows/*.yml",
