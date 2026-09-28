@@ -93,7 +93,7 @@
   "js/ts.preferences.importModuleSpecifier": "relative",
   // prettier
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
