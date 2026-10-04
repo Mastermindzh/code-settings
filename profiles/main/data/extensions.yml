@@ -166,6 +166,8 @@ enabled:
     uuid: 9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a
   - id: waderyan.gitblame
     uuid: 2335b326-c334-4e81-bc51-c408fcec6e7c
+  - id: wholroyd.jinja
+    uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: wix.glean
     uuid: b2afde1a-6cef-4f77-971f-24e66ff2ae38
   - id: YoavBls.pretty-ts-errors
