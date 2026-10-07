@@ -326,8 +326,8 @@
     "editorGutter.addedBackground": "#4CAF50",
     "editorGutter.deletedBackground": "#F44336",
   },
-  "chat.viewSessions.orientation": "stacked",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
+  "chat.viewSessions.orientation": "stacked",
 }
