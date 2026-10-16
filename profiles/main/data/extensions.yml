@@ -68,6 +68,8 @@ enabled:
     uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: google.google-antigravity
+    uuid: 4060355f-c7e7-4768-a777-283f247235ff
   - id: hbenl.vscode-test-explorer
     uuid: ff96f1b4-a4b8-45ef-8ecf-c232c0cb75c8
   - id: HookyQR.JSDocTagComplete
